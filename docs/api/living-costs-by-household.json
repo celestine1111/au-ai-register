@@ -1,7 +1,7 @@
 {
   "dataset": "living-costs-by-household.csv",
   "rows": 290,
-  "generated_at": "2026-08-25T14:19:46.621Z",
+  "generated_at": "2026-08-25T14:26:09.514Z",
   "license": "CC-BY-4.0",
   "source_csv": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/living-costs-by-household.csv",
   "data": [

@@ -1,0 +1,174 @@
+{
+  "dataset": "india-emigration-by-destination.csv",
+  "rows": 15,
+  "generated_at": "2026-08-25T14:26:09.514Z",
+  "license": "CC-BY-4.0",
+  "source_csv": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/india-emigration-by-destination.csv",
+  "data": [
+    {
+      "rank": "1",
+      "destination_country": "Saudi Arabia",
+      "emigration_clearances": "563813",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "2",
+      "destination_country": "United Arab Emirates",
+      "emigration_clearances": "212018",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "3",
+      "destination_country": "Kuwait",
+      "emigration_clearances": "164017",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "4",
+      "destination_country": "Qatar",
+      "emigration_clearances": "132887",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "5",
+      "destination_country": "Oman",
+      "emigration_clearances": "94907",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "6",
+      "destination_country": "Malaysia",
+      "emigration_clearances": "33482",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "7",
+      "destination_country": "Bahrain",
+      "emigration_clearances": "31836",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "8",
+      "destination_country": "Jordan",
+      "emigration_clearances": "8982",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "9",
+      "destination_country": "Iraq",
+      "emigration_clearances": "6370",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "10",
+      "destination_country": "Lebanon",
+      "emigration_clearances": "666",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "11",
+      "destination_country": "Thailand",
+      "emigration_clearances": "18",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "12",
+      "destination_country": "Indonesia",
+      "emigration_clearances": "5",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "13",
+      "destination_country": "South Sudan",
+      "emigration_clearances": "2",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "14",
+      "destination_country": "Sudan",
+      "emigration_clearances": "2",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    },
+    {
+      "rank": "Total",
+      "destination_country": "Total",
+      "emigration_clearances": "1249005",
+      "period": "2021-01-01 to 2024-11-19",
+      "origin_country": "India",
+      "source_agency": "Ministry of External Affairs, via the data.gov.in open data API",
+      "source_tier": "primary",
+      "source_url": "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      "source_retrieved_at": "2026-08-25T14:26:09.322238+00:00"
+    }
+  ]
+}

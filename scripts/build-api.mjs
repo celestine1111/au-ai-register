@@ -65,6 +65,7 @@ const DATASETS = [
   "gdp-per-capita-vs-population.csv",
   "housing-affordability.csv",
   "living-costs-by-household.csv",
+  "india-emigration-by-destination.csv",
 ];
 
 console.log("building static API:");
@@ -228,6 +229,19 @@ write("findings.json", {
         "STOCK, not flow: counts residents at a point in time, so change nets out departures and deaths and is not arrivals.",
         "Census years only; the latest point is 2021.",
         "The 2016-2021 interval contains roughly eighteen months of closed borders, which suppresses growth against a normal period.",
+      ],
+    },
+    {
+      id: "india-emigration-destinations",
+      claim:
+        "India's official emigration data records 1,249,005 clearances between January 2021 and November 2024, across 14 destination countries. Australia is not among them, and neither are the United States, the United Kingdom or Canada. The list is Saudi Arabia, UAE, Kuwait, Qatar, Oman, Malaysia, Bahrain, Jordan, Iraq, Lebanon, Thailand, Indonesia, South Sudan and Sudan.",
+      values: { total_clearances: 1249005, destination_countries: 14, australia_present: false, top_destination: "Saudi Arabia", top_destination_clearances: 563813 },
+      source: "Ministry of External Affairs (India), via the data.gov.in open data API",
+      source_url: "https://api.data.gov.in/resource/bdf138e1-72c7-4dc8-a9cf-cfe9eb410bd1?format=json",
+      limits: [
+        "This covers Emigration Check Required (ECR) destinations only. Australia, the US, the UK and Canada are ECNR destinations where no clearance is required, so no record is generated. Australia's absence reflects the design of India's regulatory system, NOT an absence of Indian migration to Australia.",
+        "Emigration clearance applies to a specific class of worker, not to students or skilled independent migrants, who are the majority of Indian arrivals in Australia.",
+        "This measures departures cleared by India. Australia's own count of India-born residents (712,040 at the 2021 Census) is the authoritative figure for who is actually here.",
       ],
     },
     {

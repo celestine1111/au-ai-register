@@ -1,0 +1,22 @@
+name: CI
+
+# The provenance gate is the whole point of this repository, so it runs on
+# every push and every pull request. A dataset row that cannot be traced back
+# to a public record is not data, and it must never reach the default branch.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Provenance gate
+        run: node scripts/check-provenance.mjs

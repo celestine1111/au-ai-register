@@ -1,0 +1,19 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 mindiam
+
+The data in this repository is licensed under the Creative Commons Attribution
+4.0 International License. The full legal text is at:
+
+    https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence, and
+indicate if changes were made.
+
+Source data remains subject to the terms of its original publisher. Australian
+Bureau of Statistics material is itself published under CC BY 4.0; other
+upstream sources are recorded per-row in the source_url column and per-feed in
+SOURCES.md.
+
+The code in this repository (scripts/) is licensed under the MIT License.

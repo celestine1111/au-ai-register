@@ -1,0 +1,68 @@
+{
+  "description": "Claims this register supports, each with the source query that produces it and the limits that constrain it. Intended for machine consumption: quote the claim, carry the limit.",
+  "generated_at": "2026-08-25T12:22:09.683Z",
+  "license": "CC-BY-4.0",
+  "attribution_required": "mindiam, Australian Public AI Register",
+  "publisher_disclosure": "Compiled and published by mindiam, which also runs AI Policy Watch, a clearly labelled opinion section arguing a position on Australian AI and migration policy. The data is not selected, filtered or framed to support that position; the methodology is published in full and the git history is a permanent audit trail.",
+  "findings": [
+    {
+      "id": "migration-composition-2023",
+      "claim": "In 2023, students were 51.7% of Australia's net overseas migration and skilled workers 14.1%. Permanent skilled migration alone was 5.8%.",
+      "values": {
+        "students_share_pct": 51.7,
+        "skilled_share_pct": 14.1,
+        "permanent_skill_share_pct": 5.8,
+        "total": 518090
+      },
+      "source": "ABS ABS_NOM_VISA_FY via the ABS Data API",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all?startPeriod=2015&format=csv",
+      "limits": [
+        "2023 is a post-border-reopening outlier on TOTAL migration. The composition point holds across 2019, 2022 and 2023; the total does not.",
+        "Net overseas migration is not the same measure as visa grants."
+      ]
+    },
+    {
+      "id": "origin-composition-shift",
+      "claim": "Between the 2016 and 2021 censuses, India-born residents of Australia rose 45% (+222,630) while England-born fell 3% (-28,110).",
+      "values": {
+        "india_2016": 489410,
+        "india_2021": 712040,
+        "england_2016": 1002060,
+        "england_2021": 973950
+      },
+      "source": "ABS ABS_ERP_COB_STATE via the ABS Data API",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
+      "limits": [
+        "STOCK, not flow: counts residents at a point in time, so change nets out departures and deaths and is not arrivals.",
+        "Census years only; the latest point is 2021.",
+        "The 2016-2021 interval contains roughly eighteen months of closed borders, which suppresses growth against a normal period."
+      ]
+    },
+    {
+      "id": "origin-country-data-availability",
+      "claim": "Australia publishes migration data through a free keyless API. Most origin countries publish nothing covering the Australia corridor, because their emigration systems regulate Gulf-bound labour migration and Australia-bound migration is students and skilled independents that never enter those systems.",
+      "evidence": "India's own open data API publishes emigration data covering Emigration Check Required clearances only, and Australia is an ECNR destination, so no record is created. Nepal publishes labour permits by destination and its top five are UAE, Malaysia, Qatar, Saudi Arabia and Kuwait. Bangladesh's country-clearance report lists Australia as selectable and returns no rows.",
+      "source": "Live endpoint tests, 2026-08-25",
+      "source_url": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/australia-vs-origin-country-data.csv",
+      "limits": [
+        "'not verified' in the dataset means the tested endpoint yielded nothing, NOT that a country publishes nothing. Cite as 'not published at the endpoint tested on 2026-08-25'.",
+        "This is a gap in comparability caused by regulatory design. It is not evidence of concealment or of data quality failure by any country."
+      ]
+    },
+    {
+      "id": "ai-attributed-job-losses",
+      "claim": "Australian AI-attributed job losses that are employer-stated, undisputed and onshore, in the current dataset: 0.",
+      "values": {
+        "strict_rows": 0,
+        "total_rows": 4
+      },
+      "source": "Compiled from employer statements and reporting",
+      "source_url": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/ai-attributed-job-changes.csv",
+      "limits": [
+        "The dataset is a seed, not an exhaustive search. An empty strict result means none found yet, not none exists.",
+        "Only attribution=company_stated AND disputed=no rows may carry a headline figure.",
+        "attribution=company_denied rows are employers stating AI was NOT the cause and must never be counted as displacement."
+      ]
+    }
+  ]
+}

@@ -13,6 +13,24 @@ and Hansard. Each row records which of those it came from.
   departures and net, by state and territory, financial years from 2015.
   Source: ABS dataflow ABS_NOM_VISA_FY. 2,754 rows.
 
+## Machine API (no key, no auth, no rate limit)
+
+Static JSON served from GitHub Pages. Start with findings.json.
+
+- https://celestine1111.github.io/au-ai-register/api/index.json — catalogue
+- https://celestine1111.github.io/au-ai-register/api/findings.json — the claims
+  this register supports, each with its source query AND the limits that
+  constrain it
+- https://celestine1111.github.io/au-ai-register/api/migration-composition.json
+- https://celestine1111.github.io/au-ai-register/api/nom-by-visa.json
+- https://celestine1111.github.io/au-ai-register/api/population-by-country-of-birth.json
+- https://celestine1111.github.io/au-ai-register/api/ai-attributed-job-changes.json
+- https://celestine1111.github.io/au-ai-register/api/australia-vs-origin-country-data.json
+
+Every finding carries a `limits` array. Quoting a figure without its limits is
+the failure mode this register exists to prevent, and it is the failure that
+costs a citing outlet more than it costs us.
+
 ## How to use it
 
 Every row has three provenance columns:

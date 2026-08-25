@@ -1,7 +1,7 @@
 {
   "dataset": "nom-by-visa.csv",
   "rows": 2754,
-  "generated_at": "2026-08-25T14:05:55.405Z",
+  "generated_at": "2026-08-25T14:19:46.621Z",
   "license": "CC-BY-4.0",
   "source_csv": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/nom-by-visa.csv",
   "data": [

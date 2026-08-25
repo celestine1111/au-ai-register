@@ -1,0 +1,291 @@
+period,household_type,household_type_code,index_group,index_number,source_tier,source_url,source_retrieved_at
+2012-Q1,Employee households,P1,All groups,70.82,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q1,Age pensioner households,P2,All groups,69.49,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q1,Other government transfer recipient households,P3,All groups,68.18,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q1,Self-funded retiree households,P4,All groups,70.21,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q1,Pensioner and beneficiary households,PBLCI,All groups,68.87,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q2,Employee households,P1,All groups,71.14,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q2,Age pensioner households,P2,All groups,69.85,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q2,Other government transfer recipient households,P3,All groups,68.54,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q2,Self-funded retiree households,P4,All groups,70.48,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q2,Pensioner and beneficiary households,PBLCI,All groups,69.23,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q3,Employee households,P1,All groups,71.58,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q3,Age pensioner households,P2,All groups,71.15,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q3,Other government transfer recipient households,P3,All groups,69.39,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q3,Self-funded retiree households,P4,All groups,71.65,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q3,Pensioner and beneficiary households,PBLCI,All groups,70.27,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q4,Employee households,P1,All groups,71.63,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q4,Age pensioner households,P2,All groups,71.15,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q4,Other government transfer recipient households,P3,All groups,69.47,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q4,Self-funded retiree households,P4,All groups,71.85,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2012-Q4,Pensioner and beneficiary households,PBLCI,All groups,70.32,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q1,Employee households,P1,All groups,71.52,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q1,Age pensioner households,P2,All groups,71.47,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q1,Other government transfer recipient households,P3,All groups,69.76,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q1,Self-funded retiree households,P4,All groups,71.86,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q1,Pensioner and beneficiary households,PBLCI,All groups,70.61,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q2,Employee households,P1,All groups,71.64,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q2,Age pensioner households,P2,All groups,71.66,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q2,Other government transfer recipient households,P3,All groups,70.03,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q2,Self-funded retiree households,P4,All groups,71.98,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q2,Pensioner and beneficiary households,PBLCI,All groups,70.85,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q3,Employee households,P1,All groups,72.25,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q3,Age pensioner households,P2,All groups,72.57,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q3,Other government transfer recipient households,P3,All groups,70.75,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q3,Self-funded retiree households,P4,All groups,73.08,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q3,Pensioner and beneficiary households,PBLCI,All groups,71.64,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q4,Employee households,P1,All groups,72.52,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q4,Age pensioner households,P2,All groups,72.96,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q4,Other government transfer recipient households,P3,All groups,71.14,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q4,Self-funded retiree households,P4,All groups,73.76,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2013-Q4,Pensioner and beneficiary households,PBLCI,All groups,72.03,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q1,Employee households,P1,All groups,73,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q1,Age pensioner households,P2,All groups,73.59,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q1,Other government transfer recipient households,P3,All groups,71.92,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q1,Self-funded retiree households,P4,All groups,74,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q1,Pensioner and beneficiary households,PBLCI,All groups,72.76,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q2,Employee households,P1,All groups,73.28,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q2,Age pensioner households,P2,All groups,73.88,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q2,Other government transfer recipient households,P3,All groups,72.19,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q2,Self-funded retiree households,P4,All groups,74.33,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q2,Pensioner and beneficiary households,PBLCI,All groups,73.04,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q3,Employee households,P1,All groups,73.59,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q3,Age pensioner households,P2,All groups,73.99,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q3,Other government transfer recipient households,P3,All groups,72.39,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q3,Self-funded retiree households,P4,All groups,74.68,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q3,Pensioner and beneficiary households,PBLCI,All groups,73.18,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q4,Employee households,P1,All groups,73.66,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q4,Age pensioner households,P2,All groups,73.87,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q4,Other government transfer recipient households,P3,All groups,72.52,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q4,Self-funded retiree households,P4,All groups,74.88,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2014-Q4,Pensioner and beneficiary households,PBLCI,All groups,73.21,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q1,Employee households,P1,All groups,73.7,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q1,Age pensioner households,P2,All groups,74.17,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q1,Other government transfer recipient households,P3,All groups,72.67,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q1,Self-funded retiree households,P4,All groups,74.93,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q1,Pensioner and beneficiary households,PBLCI,All groups,73.41,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q2,Employee households,P1,All groups,73.95,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q2,Age pensioner households,P2,All groups,74.58,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q2,Other government transfer recipient households,P3,All groups,73.04,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q2,Self-funded retiree households,P4,All groups,75.25,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q2,Pensioner and beneficiary households,PBLCI,All groups,73.8,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q3,Employee households,P1,All groups,74.1,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q3,Age pensioner households,P2,All groups,74.68,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q3,Other government transfer recipient households,P3,All groups,73.13,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q3,Self-funded retiree households,P4,All groups,75.6,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q3,Pensioner and beneficiary households,PBLCI,All groups,73.9,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q4,Employee households,P1,All groups,74.44,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q4,Age pensioner households,P2,All groups,74.79,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q4,Other government transfer recipient households,P3,All groups,73.55,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q4,Self-funded retiree households,P4,All groups,76.08,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2015-Q4,Pensioner and beneficiary households,PBLCI,All groups,74.2,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q1,Employee households,P1,All groups,74.41,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q1,Age pensioner households,P2,All groups,74.79,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q1,Other government transfer recipient households,P3,All groups,73.52,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q1,Self-funded retiree households,P4,All groups,75.79,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q1,Pensioner and beneficiary households,PBLCI,All groups,74.18,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q2,Employee households,P1,All groups,74.67,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q2,Age pensioner households,P2,All groups,75.13,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q2,Other government transfer recipient households,P3,All groups,73.81,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q2,Self-funded retiree households,P4,All groups,76.07,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q2,Pensioner and beneficiary households,PBLCI,All groups,74.49,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q3,Employee households,P1,All groups,74.99,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q3,Age pensioner households,P2,All groups,75.77,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q3,Other government transfer recipient households,P3,All groups,74.28,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q3,Self-funded retiree households,P4,All groups,76.71,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q3,Pensioner and beneficiary households,PBLCI,All groups,75.03,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q4,Employee households,P1,All groups,75.2,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q4,Age pensioner households,P2,All groups,76.01,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q4,Other government transfer recipient households,P3,All groups,74.85,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q4,Self-funded retiree households,P4,All groups,77.13,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2016-Q4,Pensioner and beneficiary households,PBLCI,All groups,75.47,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q1,Employee households,P1,All groups,75.55,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q1,Age pensioner households,P2,All groups,76.58,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q1,Other government transfer recipient households,P3,All groups,75.3,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q1,Self-funded retiree households,P4,All groups,77.31,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q1,Pensioner and beneficiary households,PBLCI,All groups,75.97,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q2,Employee households,P1,All groups,75.64,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q2,Age pensioner households,P2,All groups,76.67,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q2,Other government transfer recipient households,P3,All groups,75.34,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q2,Self-funded retiree households,P4,All groups,77.4,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q2,Pensioner and beneficiary households,PBLCI,All groups,76.03,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q3,Employee households,P1,All groups,76.16,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q3,Age pensioner households,P2,All groups,77.09,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q3,Other government transfer recipient households,P3,All groups,75.9,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q3,Self-funded retiree households,P4,All groups,77.92,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q3,Pensioner and beneficiary households,PBLCI,All groups,76.52,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q4,Employee households,P1,All groups,76.74,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q4,Age pensioner households,P2,All groups,77.6,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q4,Other government transfer recipient households,P3,All groups,76.65,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q4,Self-funded retiree households,P4,All groups,78.42,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2017-Q4,Pensioner and beneficiary households,PBLCI,All groups,77.17,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q1,Employee households,P1,All groups,77.05,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q1,Age pensioner households,P2,All groups,78.19,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q1,Other government transfer recipient households,P3,All groups,77.15,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q1,Self-funded retiree households,P4,All groups,78.72,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q1,Pensioner and beneficiary households,PBLCI,All groups,77.7,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q2,Employee households,P1,All groups,77.32,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q2,Age pensioner households,P2,All groups,78.38,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q2,Other government transfer recipient households,P3,All groups,77.38,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q2,Self-funded retiree households,P4,All groups,79,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q2,Pensioner and beneficiary households,PBLCI,All groups,77.92,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q3,Employee households,P1,All groups,77.63,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q3,Age pensioner households,P2,All groups,78.8,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q3,Other government transfer recipient households,P3,All groups,77.61,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q3,Self-funded retiree households,P4,All groups,79.68,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q3,Pensioner and beneficiary households,PBLCI,All groups,78.24,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q4,Employee households,P1,All groups,78.11,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q4,Age pensioner households,P2,All groups,79.12,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q4,Other government transfer recipient households,P3,All groups,78.24,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q4,Self-funded retiree households,P4,All groups,80.08,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2018-Q4,Pensioner and beneficiary households,PBLCI,All groups,78.73,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q1,Employee households,P1,All groups,78.11,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q1,Age pensioner households,P2,All groups,79.35,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q1,Other government transfer recipient households,P3,All groups,78.4,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q1,Self-funded retiree households,P4,All groups,79.97,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q1,Pensioner and beneficiary households,PBLCI,All groups,78.93,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q2,Employee households,P1,All groups,78.59,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q2,Age pensioner households,P2,All groups,79.81,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q2,Other government transfer recipient households,P3,All groups,78.84,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q2,Self-funded retiree households,P4,All groups,80.53,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q2,Pensioner and beneficiary households,PBLCI,All groups,79.37,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q3,Employee households,P1,All groups,78.64,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q3,Age pensioner households,P2,All groups,80.17,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q3,Other government transfer recipient households,P3,All groups,79.11,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q3,Self-funded retiree households,P4,All groups,81.2,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q3,Pensioner and beneficiary households,PBLCI,All groups,79.68,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q4,Employee households,P1,All groups,78.88,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q4,Age pensioner households,P2,All groups,80.58,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q4,Other government transfer recipient households,P3,All groups,79.76,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q4,Self-funded retiree households,P4,All groups,81.63,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2019-Q4,Pensioner and beneficiary households,PBLCI,All groups,80.24,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q1,Employee households,P1,All groups,79,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q1,Age pensioner households,P2,All groups,81.22,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q1,Other government transfer recipient households,P3,All groups,80.33,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q1,Self-funded retiree households,P4,All groups,81.78,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q1,Pensioner and beneficiary households,PBLCI,All groups,80.84,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q2,Employee households,P1,All groups,76.92,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q2,Age pensioner households,P2,All groups,80.57,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q2,Other government transfer recipient households,P3,All groups,78.81,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q2,Self-funded retiree households,P4,All groups,81.41,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q2,Pensioner and beneficiary households,PBLCI,All groups,79.73,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q3,Employee households,P1,All groups,77.91,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q3,Age pensioner households,P2,All groups,80.88,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q3,Other government transfer recipient households,P3,All groups,79.71,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q3,Self-funded retiree households,P4,All groups,81.82,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q3,Pensioner and beneficiary households,PBLCI,All groups,80.35,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q4,Employee households,P1,All groups,78.59,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q4,Age pensioner households,P2,All groups,80.91,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q4,Other government transfer recipient households,P3,All groups,80.42,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q4,Self-funded retiree households,P4,All groups,82.26,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2020-Q4,Pensioner and beneficiary households,PBLCI,All groups,80.75,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q1,Employee households,P1,All groups,78.97,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q1,Age pensioner households,P2,All groups,81.62,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q1,Other government transfer recipient households,P3,All groups,80.85,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q1,Self-funded retiree households,P4,All groups,82.84,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q1,Pensioner and beneficiary households,PBLCI,All groups,81.3,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q2,Employee households,P1,All groups,79.51,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q2,Age pensioner households,P2,All groups,82.44,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q2,Other government transfer recipient households,P3,All groups,81.52,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q2,Self-funded retiree households,P4,All groups,83.59,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q2,Pensioner and beneficiary households,PBLCI,All groups,82.04,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q3,Employee households,P1,All groups,79.95,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q3,Age pensioner households,P2,All groups,82.97,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q3,Other government transfer recipient households,P3,All groups,81.85,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q3,Self-funded retiree households,P4,All groups,84.16,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q3,Pensioner and beneficiary households,PBLCI,All groups,82.46,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q4,Employee households,P1,All groups,80.62,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q4,Age pensioner households,P2,All groups,83.64,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q4,Other government transfer recipient households,P3,All groups,82.53,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q4,Self-funded retiree households,P4,All groups,84.99,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2021-Q4,Pensioner and beneficiary households,PBLCI,All groups,83.14,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q1,Employee households,P1,All groups,81.98,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q1,Age pensioner households,P2,All groups,85.62,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q1,Other government transfer recipient households,P3,All groups,84.34,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q1,Self-funded retiree households,P4,All groups,86.51,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q1,Pensioner and beneficiary households,PBLCI,All groups,85.03,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q2,Employee households,P1,All groups,83.16,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q2,Age pensioner households,P2,All groups,86.74,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q2,Other government transfer recipient households,P3,All groups,85.43,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q2,Self-funded retiree households,P4,All groups,87.78,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q2,Pensioner and beneficiary households,PBLCI,All groups,86.13,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q3,Employee households,P1,All groups,85.37,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q3,Age pensioner households,P2,All groups,88.27,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q3,Other government transfer recipient households,P3,All groups,87.02,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q3,Self-funded retiree households,P4,All groups,89.49,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q3,Pensioner and beneficiary households,PBLCI,All groups,87.7,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q4,Employee households,P1,All groups,88.12,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q4,Age pensioner households,P2,All groups,89.8,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q4,Other government transfer recipient households,P3,All groups,88.73,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q4,Self-funded retiree households,P4,All groups,91.45,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2022-Q4,Pensioner and beneficiary households,PBLCI,All groups,89.34,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q1,Employee households,P1,All groups,89.83,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q1,Age pensioner households,P2,All groups,91.76,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q1,Other government transfer recipient households,P3,All groups,90.54,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q1,Self-funded retiree households,P4,All groups,92.64,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q1,Pensioner and beneficiary households,PBLCI,All groups,91.21,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q2,Employee households,P1,All groups,91.23,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q2,Age pensioner households,P2,All groups,92.58,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q2,Other government transfer recipient households,P3,All groups,91.68,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q2,Self-funded retiree households,P4,All groups,93.32,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q2,Pensioner and beneficiary households,PBLCI,All groups,92.19,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q3,Employee households,P1,All groups,93.03,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q3,Age pensioner households,P2,All groups,92.97,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q3,Other government transfer recipient households,P3,All groups,92.23,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q3,Self-funded retiree households,P4,All groups,94.64,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q3,Pensioner and beneficiary households,PBLCI,All groups,92.67,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q4,Employee households,P1,All groups,94.1,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q4,Age pensioner households,P2,All groups,93.74,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q4,Other government transfer recipient households,P3,All groups,93.31,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q4,Self-funded retiree households,P4,All groups,95.1,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2023-Q4,Pensioner and beneficiary households,PBLCI,All groups,93.56,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q1,Employee households,P1,All groups,95.66,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q1,Age pensioner households,P2,All groups,94.77,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q1,Other government transfer recipient households,P3,All groups,94.58,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q1,Self-funded retiree households,P4,All groups,95.79,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q1,Pensioner and beneficiary households,PBLCI,All groups,94.74,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q2,Employee households,P1,All groups,96.92,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q2,Age pensioner households,P2,All groups,95.99,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q2,Other government transfer recipient households,P3,All groups,95.92,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q2,Self-funded retiree households,P4,All groups,96.91,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q2,Pensioner and beneficiary households,PBLCI,All groups,96.01,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q3,Employee households,P1,All groups,97.43,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q3,Age pensioner households,P2,All groups,96.23,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q3,Other government transfer recipient households,P3,All groups,96.27,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q3,Self-funded retiree households,P4,All groups,97.21,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q3,Pensioner and beneficiary households,PBLCI,All groups,96.31,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q4,Employee households,P1,All groups,97.87,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q4,Age pensioner households,P2,All groups,96.08,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q4,Other government transfer recipient households,P3,All groups,96.29,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q4,Self-funded retiree households,P4,All groups,97.5,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2024-Q4,Pensioner and beneficiary households,PBLCI,All groups,96.21,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q1,Employee households,P1,All groups,98.93,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q1,Age pensioner households,P2,All groups,97.58,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q1,Other government transfer recipient households,P3,All groups,97.86,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q1,Self-funded retiree households,P4,All groups,98.04,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q1,Pensioner and beneficiary households,PBLCI,All groups,97.76,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q2,Employee households,P1,All groups,99.38,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q2,Age pensioner households,P2,All groups,98.56,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q2,Other government transfer recipient households,P3,All groups,98.85,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q2,Self-funded retiree households,P4,All groups,98.62,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q2,Pensioner and beneficiary households,PBLCI,All groups,98.72,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q3,Employee households,P1,All groups,100,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q3,Age pensioner households,P2,All groups,100,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q3,Other government transfer recipient households,P3,All groups,100,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q3,Self-funded retiree households,P4,All groups,100,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q3,Pensioner and beneficiary households,PBLCI,All groups,100,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q4,Employee households,P1,All groups,100.15,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q4,Age pensioner households,P2,All groups,100.13,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q4,Other government transfer recipient households,P3,All groups,100.13,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q4,Self-funded retiree households,P4,All groups,100.69,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2025-Q4,Pensioner and beneficiary households,PBLCI,All groups,100.13,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2026-Q1,Employee households,P1,All groups,101.54,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2026-Q1,Age pensioner households,P2,All groups,102.67,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2026-Q1,Other government transfer recipient households,P3,All groups,102.61,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2026-Q1,Self-funded retiree households,P4,All groups,101.8,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2026-Q1,Pensioner and beneficiary households,PBLCI,All groups,102.65,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2026-Q2,Employee households,P1,All groups,103.05,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2026-Q2,Age pensioner households,P2,All groups,103.21,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2026-Q2,Other government transfer recipient households,P3,All groups,103.43,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2026-Q2,Self-funded retiree households,P4,All groups,102.4,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z
+2026-Q2,Pensioner and beneficiary households,PBLCI,All groups,103.31,primary,"https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",2026-08-25T14:19:41.340Z

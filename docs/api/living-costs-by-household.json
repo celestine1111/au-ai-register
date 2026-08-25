@@ -1,0 +1,2909 @@
+{
+  "dataset": "living-costs-by-household.csv",
+  "rows": 290,
+  "generated_at": "2026-08-25T14:19:46.621Z",
+  "license": "CC-BY-4.0",
+  "source_csv": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/living-costs-by-household.csv",
+  "data": [
+    {
+      "period": "2012-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "70.82",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "69.49",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "68.18",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "70.21",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "68.87",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "71.14",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "69.85",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "68.54",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "70.48",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "69.23",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "71.58",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "71.15",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "69.39",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "71.65",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "70.27",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "71.63",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "71.15",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "69.47",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "71.85",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2012-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "70.32",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "71.52",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "71.47",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "69.76",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "71.86",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "70.61",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "71.64",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "71.66",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "70.03",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "71.98",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "70.85",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "72.25",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "72.57",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "70.75",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "73.08",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "71.64",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "72.52",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "72.96",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "71.14",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "73.76",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2013-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "72.03",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "73",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "73.59",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "71.92",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "74",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "72.76",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "73.28",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "73.88",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "72.19",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "74.33",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "73.04",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "73.59",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "73.99",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "72.39",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "74.68",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "73.18",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "73.66",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "73.87",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "72.52",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "74.88",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2014-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "73.21",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "73.7",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "74.17",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "72.67",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "74.93",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "73.41",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "73.95",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "74.58",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "73.04",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "75.25",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "73.8",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "74.1",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "74.68",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "73.13",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "75.6",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "73.9",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "74.44",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "74.79",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "73.55",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "76.08",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2015-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "74.2",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "74.41",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "74.79",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "73.52",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "75.79",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "74.18",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "74.67",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "75.13",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "73.81",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "76.07",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "74.49",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "74.99",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "75.77",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "74.28",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "76.71",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "75.03",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "75.2",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "76.01",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "74.85",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "77.13",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2016-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "75.47",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "75.55",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "76.58",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "75.3",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "77.31",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "75.97",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "75.64",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "76.67",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "75.34",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "77.4",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "76.03",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "76.16",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "77.09",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "75.9",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "77.92",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "76.52",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "76.74",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "77.6",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "76.65",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "78.42",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2017-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "77.17",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "77.05",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "78.19",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "77.15",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "78.72",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "77.7",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "77.32",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "78.38",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "77.38",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "79",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "77.92",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "77.63",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "78.8",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "77.61",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "79.68",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "78.24",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "78.11",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "79.12",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "78.24",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "80.08",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2018-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "78.73",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "78.11",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "79.35",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "78.4",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "79.97",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "78.93",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "78.59",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "79.81",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "78.84",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "80.53",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "79.37",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "78.64",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "80.17",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "79.11",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "81.2",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "79.68",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "78.88",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "80.58",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "79.76",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "81.63",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2019-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "80.24",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "79",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "81.22",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "80.33",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "81.78",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "80.84",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "76.92",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "80.57",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "78.81",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "81.41",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "79.73",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "77.91",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "80.88",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "79.71",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "81.82",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "80.35",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "78.59",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "80.91",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "80.42",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "82.26",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2020-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "80.75",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "78.97",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "81.62",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "80.85",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "82.84",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "81.3",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "79.51",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "82.44",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "81.52",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "83.59",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "82.04",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "79.95",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "82.97",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "81.85",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "84.16",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "82.46",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "80.62",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "83.64",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "82.53",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "84.99",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2021-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "83.14",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "81.98",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "85.62",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "84.34",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "86.51",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "85.03",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "83.16",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "86.74",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "85.43",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "87.78",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "86.13",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "85.37",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "88.27",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "87.02",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "89.49",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "87.7",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "88.12",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "89.8",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "88.73",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "91.45",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2022-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "89.34",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "89.83",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "91.76",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "90.54",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "92.64",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "91.21",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "91.23",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "92.58",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "91.68",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "93.32",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "92.19",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "93.03",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "92.97",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "92.23",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "94.64",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "92.67",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "94.1",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "93.74",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "93.31",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "95.1",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2023-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "93.56",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "95.66",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "94.77",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "94.58",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "95.79",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "94.74",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "96.92",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "95.99",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "95.92",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "96.91",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "96.01",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "97.43",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "96.23",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "96.27",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "97.21",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "96.31",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "97.87",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "96.08",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "96.29",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "97.5",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2024-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "96.21",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "98.93",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "97.58",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "97.86",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "98.04",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "97.76",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "99.38",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "98.56",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "98.85",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "98.62",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "98.72",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q3",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "100",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q3",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "100",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q3",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "100",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q3",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "100",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q3",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "100",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q4",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "100.15",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q4",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "100.13",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q4",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "100.13",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q4",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "100.69",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2025-Q4",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "100.13",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2026-Q1",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "101.54",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2026-Q1",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "102.67",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2026-Q1",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "102.61",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2026-Q1",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "101.8",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2026-Q1",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "102.65",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2026-Q2",
+      "household_type": "Employee households",
+      "household_type_code": "P1",
+      "index_group": "All groups",
+      "index_number": "103.05",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2026-Q2",
+      "household_type": "Age pensioner households",
+      "household_type_code": "P2",
+      "index_group": "All groups",
+      "index_number": "103.21",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2026-Q2",
+      "household_type": "Other government transfer recipient households",
+      "household_type_code": "P3",
+      "index_group": "All groups",
+      "index_number": "103.43",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2026-Q2",
+      "household_type": "Self-funded retiree households",
+      "household_type_code": "P4",
+      "index_group": "All groups",
+      "index_number": "102.4",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    },
+    {
+      "period": "2026-Q2",
+      "household_type": "Pensioner and beneficiary households",
+      "household_type_code": "PBLCI",
+      "index_group": "All groups",
+      "index_number": "103.31",
+      "source_tier": "primary",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      "source_retrieved_at": "2026-08-25T14:19:41.340Z"
+    }
+  ]
+}

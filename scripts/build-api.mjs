@@ -64,6 +64,7 @@ const DATASETS = [
   "australia-vs-origin-country-data.csv",
   "gdp-per-capita-vs-population.csv",
   "housing-affordability.csv",
+  "living-costs-by-household.csv",
 ];
 
 console.log("building static API:");
@@ -240,6 +241,26 @@ write("findings.json", {
       limits: [
         "'not verified' in the dataset means the tested endpoint yielded nothing, NOT that a country publishes nothing. Cite as 'not published at the endpoint tested on 2026-08-25'.",
         "This is a gap in comparability caused by regulatory design. It is not evidence of concealment or of data quality failure by any country.",
+      ],
+    },
+    {
+      id: "living-costs-by-household-type",
+      claim:
+        "Since 2012, living costs rose fastest for government transfer recipients (+51.7%) and pensioner and beneficiary households (+50.0%), and slowest for employee households (+45.5%). ABS states CPI is not a cost-of-living index and excludes mortgage interest, which is why it publishes this separate series.",
+      values: {
+        employee_households_pct: 45.5,
+        age_pensioner_households_pct: 48.5,
+        other_govt_transfer_recipients_pct: 51.7,
+        self_funded_retiree_households_pct: 45.8,
+        pensioner_and_beneficiary_households_pct: 50.0,
+        period: "2012-Q1 to 2026-Q2",
+      },
+      source: "ABS LCI (Selected Living Cost Indexes) via the ABS Data API",
+      source_url: "https://data.api.abs.gov.au/rest/data/ABS,LCI,1.0.0/all?startPeriod=2012&format=csv",
+      limits: [
+        "An index measures change from a base, not level. A household type with lower index growth is not better off in absolute terms, only facing slower cost growth from wherever it started.",
+        "Weighted average of eight capital cities. Regional and rural households are not separately identified.",
+        "This is the All groups index. Sub-indices (health, education, insurance) are in the dataset and can differ substantially.",
       ],
     },
     {

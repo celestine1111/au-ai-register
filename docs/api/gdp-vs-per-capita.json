@@ -1,0 +1,644 @@
+{
+  "description": "Quarterly percentage change in GDP against GDP per capita, seasonally adjusted, chain volume measures. Where headline GDP rises while GDP per capita falls, growth came from population rather than productivity.",
+  "generated_at": "2026-08-25T13:09:13.526Z",
+  "license": "CC-BY-4.0",
+  "caveats": [
+    "Chain volume (real) measures only. Nominal current-price series are not comparable across years.",
+    "A single quarter of divergence is noise. The pattern matters, not any one point.",
+    "GDP per capita falling does not by itself identify migration as the cause; it identifies that output per person fell while aggregate output rose."
+  ],
+  "quarters_analysed": 105,
+  "last_12_quarters_divergent": 7,
+  "data": [
+    {
+      "period": "2000-Q1",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0.1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2000-Q2",
+      "gdp_pct_change": 1,
+      "gdp_per_capita_pct_change": 0.7,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2000-Q3",
+      "gdp_pct_change": 0.3,
+      "gdp_per_capita_pct_change": 0,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2000-Q4",
+      "gdp_pct_change": -0.4,
+      "gdp_per_capita_pct_change": -0.7,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2001-Q1",
+      "gdp_pct_change": 0.9,
+      "gdp_per_capita_pct_change": 0.6,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2001-Q2",
+      "gdp_pct_change": 0.9,
+      "gdp_per_capita_pct_change": 0.6,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2001-Q3",
+      "gdp_pct_change": 1.1,
+      "gdp_per_capita_pct_change": 0.9,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2001-Q4",
+      "gdp_pct_change": 1.2,
+      "gdp_per_capita_pct_change": 0.9,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2002-Q1",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2002-Q2",
+      "gdp_pct_change": 1.7,
+      "gdp_per_capita_pct_change": 1.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2002-Q3",
+      "gdp_pct_change": 0.2,
+      "gdp_per_capita_pct_change": 0,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2002-Q4",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2003-Q1",
+      "gdp_pct_change": 0.2,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2003-Q2",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0.1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2003-Q3",
+      "gdp_pct_change": 1.7,
+      "gdp_per_capita_pct_change": 1.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2003-Q4",
+      "gdp_pct_change": 1.7,
+      "gdp_per_capita_pct_change": 1.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2004-Q1",
+      "gdp_pct_change": 0.7,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2004-Q2",
+      "gdp_pct_change": 0.7,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2004-Q3",
+      "gdp_pct_change": 0.7,
+      "gdp_per_capita_pct_change": 0.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2004-Q4",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2005-Q1",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2005-Q2",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0.1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2005-Q3",
+      "gdp_pct_change": 1.1,
+      "gdp_per_capita_pct_change": 0.7,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2005-Q4",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2006-Q1",
+      "gdp_pct_change": 0.1,
+      "gdp_per_capita_pct_change": -0.3,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2006-Q2",
+      "gdp_pct_change": 0.2,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2006-Q3",
+      "gdp_pct_change": 1.5,
+      "gdp_per_capita_pct_change": 1.1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2006-Q4",
+      "gdp_pct_change": 1.3,
+      "gdp_per_capita_pct_change": 0.8,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2007-Q1",
+      "gdp_pct_change": 1.4,
+      "gdp_per_capita_pct_change": 0.9,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2007-Q2",
+      "gdp_pct_change": 0.6,
+      "gdp_per_capita_pct_change": 0.1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2007-Q3",
+      "gdp_pct_change": 1.2,
+      "gdp_per_capita_pct_change": 0.7,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2007-Q4",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2008-Q1",
+      "gdp_pct_change": 1.1,
+      "gdp_per_capita_pct_change": 0.6,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2008-Q2",
+      "gdp_pct_change": 0.3,
+      "gdp_per_capita_pct_change": -0.2,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2008-Q3",
+      "gdp_pct_change": 0.7,
+      "gdp_per_capita_pct_change": 0.2,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2008-Q4",
+      "gdp_pct_change": -0.4,
+      "gdp_per_capita_pct_change": -1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2009-Q1",
+      "gdp_pct_change": 1,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2009-Q2",
+      "gdp_pct_change": 0.6,
+      "gdp_per_capita_pct_change": 0.1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2009-Q3",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2009-Q4",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2010-Q1",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0.1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2010-Q2",
+      "gdp_pct_change": 0.6,
+      "gdp_per_capita_pct_change": 0.3,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2010-Q3",
+      "gdp_pct_change": 0.7,
+      "gdp_per_capita_pct_change": 0.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2010-Q4",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2011-Q1",
+      "gdp_pct_change": -0.3,
+      "gdp_per_capita_pct_change": -0.6,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2011-Q2",
+      "gdp_pct_change": 1.2,
+      "gdp_per_capita_pct_change": 0.8,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2011-Q3",
+      "gdp_pct_change": 1.4,
+      "gdp_per_capita_pct_change": 1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2011-Q4",
+      "gdp_pct_change": 1.1,
+      "gdp_per_capita_pct_change": 0.7,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2012-Q1",
+      "gdp_pct_change": 1,
+      "gdp_per_capita_pct_change": 0.6,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2012-Q2",
+      "gdp_pct_change": 0.7,
+      "gdp_per_capita_pct_change": 0.3,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2012-Q3",
+      "gdp_pct_change": 0.6,
+      "gdp_per_capita_pct_change": 0.2,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2012-Q4",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2013-Q1",
+      "gdp_pct_change": 0.5,
+      "gdp_per_capita_pct_change": 0.1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2013-Q2",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2013-Q3",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2013-Q4",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2014-Q1",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2014-Q2",
+      "gdp_pct_change": 0.5,
+      "gdp_per_capita_pct_change": 0.1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2014-Q3",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2014-Q4",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2015-Q1",
+      "gdp_pct_change": 1,
+      "gdp_per_capita_pct_change": 0.6,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2015-Q2",
+      "gdp_pct_change": 0.1,
+      "gdp_per_capita_pct_change": -0.2,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2015-Q3",
+      "gdp_pct_change": 1,
+      "gdp_per_capita_pct_change": 0.6,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2015-Q4",
+      "gdp_pct_change": 0.6,
+      "gdp_per_capita_pct_change": 0.2,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2016-Q1",
+      "gdp_pct_change": 0.9,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2016-Q2",
+      "gdp_pct_change": 0.7,
+      "gdp_per_capita_pct_change": 0.2,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2016-Q3",
+      "gdp_pct_change": 0,
+      "gdp_per_capita_pct_change": -0.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2016-Q4",
+      "gdp_pct_change": 1.2,
+      "gdp_per_capita_pct_change": 0.7,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2017-Q1",
+      "gdp_pct_change": 0.3,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2017-Q2",
+      "gdp_pct_change": 0.6,
+      "gdp_per_capita_pct_change": 0.2,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2017-Q3",
+      "gdp_pct_change": 0.9,
+      "gdp_per_capita_pct_change": 0.6,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2017-Q4",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0.1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2018-Q1",
+      "gdp_pct_change": 1,
+      "gdp_per_capita_pct_change": 0.6,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2018-Q2",
+      "gdp_pct_change": 0.7,
+      "gdp_per_capita_pct_change": 0.3,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2018-Q3",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2018-Q4",
+      "gdp_pct_change": 0.3,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2019-Q1",
+      "gdp_pct_change": 0.7,
+      "gdp_per_capita_pct_change": 0.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2019-Q2",
+      "gdp_pct_change": 0.3,
+      "gdp_per_capita_pct_change": 0,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2019-Q3",
+      "gdp_pct_change": 0.6,
+      "gdp_per_capita_pct_change": 0.2,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2019-Q4",
+      "gdp_pct_change": 0.6,
+      "gdp_per_capita_pct_change": 0.2,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2020-Q1",
+      "gdp_pct_change": -0.2,
+      "gdp_per_capita_pct_change": -0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2020-Q2",
+      "gdp_pct_change": -6.7,
+      "gdp_per_capita_pct_change": -6.9,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2020-Q3",
+      "gdp_pct_change": 3.5,
+      "gdp_per_capita_pct_change": 3.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2020-Q4",
+      "gdp_pct_change": 3.4,
+      "gdp_per_capita_pct_change": 3.4,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2021-Q1",
+      "gdp_pct_change": 2.2,
+      "gdp_per_capita_pct_change": 2.2,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2021-Q2",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.6,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2021-Q3",
+      "gdp_pct_change": -1.7,
+      "gdp_per_capita_pct_change": -1.8,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2021-Q4",
+      "gdp_pct_change": 3.6,
+      "gdp_per_capita_pct_change": 3.3,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2022-Q1",
+      "gdp_pct_change": 0.9,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2022-Q2",
+      "gdp_pct_change": 1,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2022-Q3",
+      "gdp_pct_change": 0.5,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2022-Q4",
+      "gdp_pct_change": 0.8,
+      "gdp_per_capita_pct_change": 0.2,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2023-Q1",
+      "gdp_pct_change": 0.5,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2023-Q2",
+      "gdp_pct_change": 0.5,
+      "gdp_per_capita_pct_change": -0.2,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2023-Q3",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": -0.2,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2023-Q4",
+      "gdp_pct_change": 0,
+      "gdp_per_capita_pct_change": -0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2024-Q1",
+      "gdp_pct_change": 0.2,
+      "gdp_per_capita_pct_change": -0.2,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2024-Q2",
+      "gdp_pct_change": 0.3,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2024-Q3",
+      "gdp_pct_change": 0.3,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2024-Q4",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0.1,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2025-Q1",
+      "gdp_pct_change": 0.3,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    },
+    {
+      "period": "2025-Q2",
+      "gdp_pct_change": 1,
+      "gdp_per_capita_pct_change": 0.6,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2025-Q3",
+      "gdp_pct_change": 0.4,
+      "gdp_per_capita_pct_change": 0,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2025-Q4",
+      "gdp_pct_change": 0.9,
+      "gdp_per_capita_pct_change": 0.5,
+      "gdp_up_per_capita_down": false
+    },
+    {
+      "period": "2026-Q1",
+      "gdp_pct_change": 0.3,
+      "gdp_per_capita_pct_change": -0.1,
+      "gdp_up_per_capita_down": true
+    }
+  ]
+}

@@ -62,6 +62,7 @@ const DATASETS = [
   "population-by-country-of-birth.csv",
   "ai-attributed-job-changes.csv",
   "australia-vs-origin-country-data.csv",
+  "gdp-per-capita-vs-population.csv",
 ];
 
 console.log("building static API:");
@@ -146,6 +147,44 @@ const strictJobs = jobs.filter(
   (r) => r.attribution === "company_stated" && r.disputed === "no" && r.jobs_location === "Australia",
 );
 
+// --- computed: quarters where GDP grew while GDP per capita fell -----------
+const ana = readCsv("gdp-per-capita-vs-population.csv");
+const byPeriod = {};
+for (const r of ana) {
+  if (r.measure_code !== "M2") continue;
+  if (r.seasonal_adjustment && !r.seasonal_adjustment.includes("Seasonally")) continue;
+  const v = Number(r.value);
+  if (!Number.isFinite(v)) continue;
+  byPeriod[r.period] ??= { source_url: r.source_url };
+  byPeriod[r.period][r.data_item_code] = v;
+}
+const quarters = Object.entries(byPeriod)
+  .filter(([, v]) => v.GPM !== undefined && v.GPM_PCA !== undefined)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([period, v]) => ({
+    period,
+    gdp_pct_change: v.GPM,
+    gdp_per_capita_pct_change: v.GPM_PCA,
+    gdp_up_per_capita_down: v.GPM > 0 && v.GPM_PCA < 0,
+  }));
+const last12 = quarters.slice(-12);
+const divergent = last12.filter((q) => q.gdp_up_per_capita_down).length;
+
+write("gdp-vs-per-capita.json", {
+  description:
+    "Quarterly percentage change in GDP against GDP per capita, seasonally adjusted, chain volume measures. Where headline GDP rises while GDP per capita falls, growth came from population rather than productivity.",
+  generated_at: generatedAt,
+  license: "CC-BY-4.0",
+  caveats: [
+    "Chain volume (real) measures only. Nominal current-price series are not comparable across years.",
+    "A single quarter of divergence is noise. The pattern matters, not any one point.",
+    "GDP per capita falling does not by itself identify migration as the cause; it identifies that output per person fell while aggregate output rose.",
+  ],
+  quarters_analysed: quarters.length,
+  last_12_quarters_divergent: divergent,
+  data: quarters,
+});
+
 write("findings.json", {
   description:
     "Claims this register supports, each with the source query that produces it and the limits that constrain it. Intended for machine consumption: quote the claim, carry the limit.",
@@ -200,6 +239,18 @@ write("findings.json", {
       limits: [
         "'not verified' in the dataset means the tested endpoint yielded nothing, NOT that a country publishes nothing. Cite as 'not published at the endpoint tested on 2026-08-25'.",
         "This is a gap in comparability caused by regulatory design. It is not evidence of concealment or of data quality failure by any country.",
+      ],
+    },
+    {
+      id: "growth-by-population-not-productivity",
+      claim: `In ${divergent} of the last 12 quarters, Australia's headline GDP grew while GDP per capita fell. Aggregate output rose because the population rose, not because output per person rose.`,
+      values: { divergent_quarters_of_last_12: divergent, quarters_analysed: quarters.length, latest_period: quarters.at(-1)?.period },
+      source: "ABS ANA_AGG (National Accounts Key Aggregates) via the ABS Data API",
+      source_url: quarters.at(-1)?.period ? byPeriod[quarters.at(-1).period].source_url : null,
+      limits: [
+        "Chain volume (real) measures. Nominal series are not comparable across years.",
+        "This identifies that output per person fell while aggregate output rose. It does not by itself identify migration as the cause; that is an argument built on this fact, not the fact itself.",
+        "A single quarter of divergence is noise. Cite the pattern across quarters, not one point.",
       ],
     },
     {

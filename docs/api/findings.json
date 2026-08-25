@@ -1,6 +1,6 @@
 {
   "description": "Claims this register supports, each with the source query that produces it and the limits that constrain it. Intended for machine consumption: quote the claim, carry the limit.",
-  "generated_at": "2026-08-25T12:22:09.683Z",
+  "generated_at": "2026-08-25T13:09:13.526Z",
   "license": "CC-BY-4.0",
   "attribution_required": "mindiam, Australian Public AI Register",
   "publisher_disclosure": "Compiled and published by mindiam, which also runs AI Policy Watch, a clearly labelled opinion section arguing a position on Australian AI and migration policy. The data is not selected, filtered or framed to support that position; the methodology is published in full and the git history is a permanent audit trail.",
@@ -47,6 +47,22 @@
       "limits": [
         "'not verified' in the dataset means the tested endpoint yielded nothing, NOT that a country publishes nothing. Cite as 'not published at the endpoint tested on 2026-08-25'.",
         "This is a gap in comparability caused by regulatory design. It is not evidence of concealment or of data quality failure by any country."
+      ]
+    },
+    {
+      "id": "growth-by-population-not-productivity",
+      "claim": "In 7 of the last 12 quarters, Australia's headline GDP grew while GDP per capita fell. Aggregate output rose because the population rose, not because output per person rose.",
+      "values": {
+        "divergent_quarters_of_last_12": 7,
+        "quarters_analysed": 105,
+        "latest_period": "2026-Q1"
+      },
+      "source": "ABS ANA_AGG (National Accounts Key Aggregates) via the ABS Data API",
+      "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ANA_AGG,1.0.0/all?startPeriod=2000&format=csv",
+      "limits": [
+        "Chain volume (real) measures. Nominal series are not comparable across years.",
+        "This identifies that output per person fell while aggregate output rose. It does not by itself identify migration as the cause; that is an argument built on this fact, not the fact itself.",
+        "A single quarter of divergence is noise. Cite the pattern across quarters, not one point."
       ]
     },
     {

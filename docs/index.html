@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Australian Public AI Register — open data on government AI and migration</title>
+<meta name="description" content="Open, provenance-gated dataset of Australian public-sector AI and migration: government AI contracts, public-sector hiring, data centre investment and net overseas migration by visa group. Every row carries its source URL and retrieval date. CC BY 4.0.">
+<link rel="canonical" href="https://celestine1111.github.io/au-ai-register/">
+
+<!-- schema.org/Dataset is what puts this in Google Dataset Search and lets a
+     retrieval system understand what the files actually contain. The
+     distribution block is the part most people omit and the part that matters:
+     it tells a machine where the raw data is and in what format. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Australian Public AI Register",
+  "description": "Open, provenance-gated dataset of Australian public-sector artificial intelligence and migration. Covers government AI contracts, public-sector AI hiring, data centre investment, net overseas migration by visa group, and party technology policy positions. Every row carries the URL it was retrieved from, the retrieval timestamp, and a source tier distinguishing public records from company claims.",
+  "url": "https://celestine1111.github.io/au-ai-register/",
+  "sameAs": "https://github.com/celestine1111/au-ai-register",
+  "keywords": ["Australia","open government data","artificial intelligence","public sector","migration","immigration","net overseas migration","government procurement","data provenance","Australian Bureau of Statistics"],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "creator": { "@type": "Organization", "name": "mindiam", "url": "https://mindiam.com" },
+  "publisher": { "@type": "Organization", "name": "mindiam", "url": "https://mindiam.com" },
+  "spatialCoverage": { "@type": "Place", "name": "Australia" },
+  "temporalCoverage": "2015/..",
+  "measurementTechnique": "Retrieved from official Australian government APIs and publications. Every row records its source URL, retrieval timestamp and source tier.",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Net overseas migration by visa group (CSV)",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/nom-by-visa.csv"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "Net overseas migration by visa group",
+      "description": "Net overseas migration arrivals, departures and net, by visa group, state and territory, financial years from 2015. Derived without alteration from ABS dataflow ABS_NOM_VISA_FY.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isBasedOn": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all",
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/nom-by-visa.csv"
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root { color-scheme: light dark; --fg:#16181d; --bg:#fff; --mut:#5a6270; --line:#e3e6ea; --acc:#0b5cad; }
+  @media (prefers-color-scheme: dark){ :root{ --fg:#e8eaed; --bg:#14161a; --mut:#9aa3af; --line:#2a2e35; --acc:#79b8ff; } }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:52rem;margin:0 auto;padding:3rem 1.25rem 5rem}
+  h1{font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.15;margin:0 0 .5rem;letter-spacing:-.02em}
+  .sub{color:var(--mut);font-size:1.05rem;margin:0 0 2.5rem}
+  h2{font-size:1.25rem;margin:2.75rem 0 .75rem;letter-spacing:-.01em}
+  a{color:var(--acc)}
+  code{background:color-mix(in srgb,var(--fg) 8%,transparent);padding:.12em .38em;border-radius:4px;font-size:.9em}
+  table{border-collapse:collapse;width:100%;font-size:.94rem}
+  th,td{text-align:left;padding:.6rem .7rem;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-weight:600;color:var(--mut);font-size:.82rem;text-transform:uppercase;letter-spacing:.04em}
+  .scroll{overflow-x:auto}
+  .card{border:1px solid var(--line);border-radius:10px;padding:1.1rem 1.25rem;margin:1rem 0}
+  .note{border-left:3px solid var(--acc);padding-left:1rem;color:var(--mut)}
+  pre{background:color-mix(in srgb,var(--fg) 6%,transparent);padding:.9rem 1rem;border-radius:8px;overflow-x:auto;font-size:.88rem}
+  footer{margin-top:4rem;padding-top:1.5rem;border-top:1px solid var(--line);color:var(--mut);font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Australian Public AI Register</h1>
+<p class="sub">Open data on how Australian governments spend on artificial intelligence, who they buy it from, who they hire, and how the migration intake is composed. Every row carries the URL it came from and the date it was retrieved.</p>
+
+<h2>Why this exists</h2>
+<p>Australia publishes a great deal of relevant data and joins almost none of it up. Contract notices sit on AusTender, migration composition sits in ABS SDMX endpoints, provider sanctions sit with ASQA, and parliamentary quotes sit in Hansard XML. Answering a question that spans two of them currently takes a week, so mostly nobody does.</p>
+
+<h2>Datasets</h2>
+<div class="scroll">
+<table>
+  <thead><tr><th>Dataset</th><th>Coverage</th><th>Source</th><th>Rows</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><a href="https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/nom-by-visa.csv">nom-by-visa.csv</a></td>
+      <td>Net overseas migration by visa group, arrivals and departures, by state, financial years from 2015</td>
+      <td>ABS <code>ABS_NOM_VISA_FY</code></td>
+      <td>2,754</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Provenance</h2>
+<p>Three columns appear in every dataset and are enforced by continuous integration:</p>
+<div class="scroll">
+<table>
+  <thead><tr><th>Column</th><th>Meaning</th></tr></thead>
+  <tbody>
+    <tr><td><code>source_url</code></td><td>The exact URL the row came from. For API-derived rows this is the precise query, so it can be re-run to reproduce the figure.</td></tr>
+    <tr><td><code>source_retrieved_at</code></td><td>ISO 8601 retrieval timestamp.</td></tr>
+    <tr><td><code>source_tier</code></td><td><code>primary</code> for a public record, <code>claim</code> for a company announcement that is public but promotional.</td></tr>
+  </tbody>
+</table>
+</div>
+<p>The build fails on a blank provenance column, an invalid tier, or a <code>source_url</code> that is a bare homepage. A front page changes daily and cannot evidence a historical figure.</p>
+
+<h2>Verify any figure yourself</h2>
+<pre>curl -H "Accept: application/vnd.sdmx.data+csv;labels=both" "&lt;source_url from the row&gt;"</pre>
+<p>Every ingest is re-runnable and idempotent. If a figure cannot be reproduced from its <code>source_url</code>, that is a defect: <a href="https://github.com/celestine1111/au-ai-register/issues">open an issue</a>.</p>
+
+<h2>What this measures, and what it does not</h2>
+<div class="card note">
+  <p><strong>Net overseas migration is not visa grants.</strong> NOM uses the ABS 12-in-16-month residency rule. Home Affairs visa grant counts measure something different, and the two legitimately differ. They are not interchangeable.</p>
+  <p><strong>"Temporary visa &mdash; Total" includes visitors</strong>, who are not a migration programme intake in the sense most policy discussion means. Use the component rows for questions about programme settings.</p>
+  <p><strong>Visa group is not occupation.</strong> This dataset supports statements about the composition of the intake by visa class, not about which occupations migrants enter.</p>
+</div>
+
+<h2>Licence and citation</h2>
+<p>CC BY 4.0. Use it, publish it, build on it commercially. Attribution is the only condition. Please cite the DOI of the release you used, so your reference stays valid as the data updates.</p>
+
+<h2>Who publishes this</h2>
+<p>Compiled and published by <a href="https://mindiam.com">mindiam</a>, which also runs <a href="https://mindiam.com/ai-policy-watch">AI Policy Watch</a>, a clearly labelled opinion section arguing a position on Australian AI and migration policy.</p>
+<p>We say so because you should know it. <strong>The data here is not selected, filtered or framed to support that position.</strong> The <a href="https://github.com/celestine1111/au-ai-register/blob/main/methodology.md">methodology</a> is published in full, the <a href="https://github.com/celestine1111/au-ai-register/blob/main/SOURCES.md">sources and their known problems</a> are documented, and the git history is a permanent audit trail of every change to every number.</p>
+
+<footer>
+  <p><a href="https://github.com/celestine1111/au-ai-register">Repository</a> &middot; <a href="https://github.com/celestine1111/au-ai-register/blob/main/methodology.md">Methodology</a> &middot; <a href="https://github.com/celestine1111/au-ai-register/blob/main/SOURCES.md">Sources</a> &middot; <a href="https://github.com/celestine1111/au-ai-register/blob/main/llms.txt">llms.txt</a></p>
+  <p>Published by <a href="https://mindiam.com">mindiam</a>. Data licensed CC BY 4.0.</p>
+</footer>
+
+</div>
+</body>
+</html>

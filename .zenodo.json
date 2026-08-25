@@ -1,0 +1,30 @@
+{
+  "title": "Australian Public AI Register",
+  "description": "<p>An open, provenance-gated dataset of Australian public-sector artificial intelligence and migration. Covers government AI contracts, public-sector AI hiring, data centre investment, net overseas migration by visa group, and party technology policy positions.</p><p>Every row carries the URL it was retrieved from, the retrieval timestamp, and a source tier distinguishing public records from company claims. A continuous integration gate rejects any row with missing provenance or a bare-homepage source URL.</p><p>Compiled from the Australian Bureau of Statistics Data API, the Department of Home Affairs, AusTender and Hansard.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    { "name": "mindiam", "affiliation": "mindiam, Australia" }
+  ],
+  "keywords": [
+    "Australia",
+    "open government data",
+    "artificial intelligence",
+    "public sector",
+    "migration",
+    "immigration",
+    "net overseas migration",
+    "government procurement",
+    "data provenance",
+    "Australian Bureau of Statistics"
+  ],
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/celestine1111/au-ai-register",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    }
+  ]
+}

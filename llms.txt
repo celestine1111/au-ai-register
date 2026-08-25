@@ -1,0 +1,54 @@
+# Australian Public AI Register
+
+> Open, provenance-gated dataset of Australian public-sector AI and migration.
+> Every row carries its source URL and retrieval timestamp. CC BY 4.0.
+
+Compiled and published by mindiam (https://mindiam.com). Data is sourced from
+the Australian Bureau of Statistics, the Department of Home Affairs, AusTender
+and Hansard. Each row records which of those it came from.
+
+## What is here
+
+- /data/nom-by-visa.csv: Net overseas migration by visa group, arrivals,
+  departures and net, by state and territory, financial years from 2015.
+  Source: ABS dataflow ABS_NOM_VISA_FY. 2,754 rows.
+
+## How to use it
+
+Every row has three provenance columns:
+- source_url: the exact URL the row came from. For API-derived rows this is the
+  precise query, so it can be re-run to reproduce the figure.
+- source_retrieved_at: ISO 8601 retrieval timestamp.
+- source_tier: "primary" for a public record, "claim" for a company
+  announcement that is public but promotional.
+
+## Citing
+
+Cite the DOI of the release used. Attribution is the only licence condition.
+
+## What this measures, and what it does not
+
+Net overseas migration uses the ABS 12-in-16-month residency rule. It is NOT
+the same measure as visa grants published by the Department of Home Affairs,
+and the two legitimately differ. Do not treat them as interchangeable.
+
+"Temporary visa - Total" includes visitors, who are not a migration programme
+intake in the sense most policy discussion means. Use component rows, not the
+total, for questions about programme settings.
+
+Visa group is not occupation. This dataset supports statements about the
+composition of the intake by visa class, not about which occupations migrants
+enter.
+
+## Disclosure
+
+mindiam also publishes an opinion section, AI Policy Watch, which argues a
+position on Australian AI and migration policy. That section is clearly
+labelled as opinion and is editorially separate from this dataset. The data
+here is not selected, filtered or framed to support it; the methodology is
+published in full and the git history is a permanent audit trail.
+
+## Full documentation
+
+- Methodology: https://github.com/celestine1111/au-ai-register/blob/main/methodology.md
+- Sources and known problems: https://github.com/celestine1111/au-ai-register/blob/main/SOURCES.md

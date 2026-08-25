@@ -3,73 +3,62 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Australian Public AI Register — open data on government AI and migration</title>
-<meta name="description" content="Open, provenance-gated dataset of Australian public-sector AI and migration: government AI contracts, public-sector hiring, data centre investment and net overseas migration by visa group. Every row carries its source URL and retrieval date. CC BY 4.0.">
+<title>Australian Public AI Register — open data on migration, government AI and where the numbers come from</title>
+<meta name="description" content="Open, provenance-gated datasets on Australian migration composition, population by country of birth, AI-attributed job changes, and which governments publish migration data through an API. Every row carries its source URL and retrieval date. CC BY 4.0.">
 <link rel="canonical" href="https://celestine1111.github.io/au-ai-register/">
 
-<!-- schema.org/Dataset is what puts this in Google Dataset Search and lets a
-     retrieval system understand what the files actually contain. The
-     distribution block is the part most people omit and the part that matters:
-     it tells a machine where the raw data is and in what format. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "name": "Australian Public AI Register",
-  "description": "Open, provenance-gated dataset of Australian public-sector artificial intelligence and migration. Covers government AI contracts, public-sector AI hiring, data centre investment, net overseas migration by visa group, and party technology policy positions. Every row carries the URL it was retrieved from, the retrieval timestamp, and a source tier distinguishing public records from company claims.",
+  "description": "Open, provenance-gated datasets on Australian migration and public-sector artificial intelligence. Covers net overseas migration by visa group, resident population by country of birth, AI-attributed job changes with dispute tracking, and a tested record of which origin countries publish migration data through a public API. Every row carries the URL it was retrieved from, the retrieval timestamp, and a source tier distinguishing public records from company claims.",
   "url": "https://celestine1111.github.io/au-ai-register/",
   "sameAs": "https://github.com/celestine1111/au-ai-register",
-  "keywords": ["Australia","open government data","artificial intelligence","public sector","migration","immigration","net overseas migration","government procurement","data provenance","Australian Bureau of Statistics"],
+  "keywords": ["Australia","open government data","artificial intelligence","migration","immigration","net overseas migration","country of birth","public sector","data provenance","Australian Bureau of Statistics"],
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
   "creator": { "@type": "Organization", "name": "mindiam", "url": "https://mindiam.com" },
   "publisher": { "@type": "Organization", "name": "mindiam", "url": "https://mindiam.com" },
   "spatialCoverage": { "@type": "Place", "name": "Australia" },
-  "temporalCoverage": "2015/..",
-  "measurementTechnique": "Retrieved from official Australian government APIs and publications. Every row records its source URL, retrieval timestamp and source tier.",
+  "temporalCoverage": "1996/..",
+  "measurementTechnique": "Retrieved from official government APIs and publications. Every row records its source URL, retrieval timestamp and source tier. A continuous integration gate rejects any row with missing provenance or a bare-homepage source URL.",
   "distribution": [
-    {
-      "@type": "DataDownload",
-      "name": "Net overseas migration by visa group (CSV)",
-      "encodingFormat": "text/csv",
-      "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/nom-by-visa.csv"
-    }
+    { "@type": "DataDownload", "name": "Net overseas migration by visa group (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/nom-by-visa.csv" },
+    { "@type": "DataDownload", "name": "Population by country of birth (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/population-by-country-of-birth.csv" },
+    { "@type": "DataDownload", "name": "AI-attributed job changes (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/ai-attributed-job-changes.csv" },
+    { "@type": "DataDownload", "name": "Australia versus origin country data availability (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/australia-vs-origin-country-data.csv" }
   ],
   "hasPart": [
-    {
-      "@type": "Dataset",
-      "name": "Net overseas migration by visa group",
-      "description": "Net overseas migration arrivals, departures and net, by visa group, state and territory, financial years from 2015. Derived without alteration from ABS dataflow ABS_NOM_VISA_FY.",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "isBasedOn": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all",
-      "distribution": {
-        "@type": "DataDownload",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/nom-by-visa.csv"
-      }
-    }
+    { "@type": "Dataset", "name": "Net overseas migration by visa group", "description": "Arrivals, departures and net, by visa group, state and territory, financial years from 2015. Derived without alteration from ABS dataflow ABS_NOM_VISA_FY.", "license": "https://creativecommons.org/licenses/by/4.0/", "isBasedOn": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all" },
+    { "@type": "Dataset", "name": "Population by country of birth", "description": "Australian resident population by country of birth, 257 countries, census years 1996 to 2021. Stock, not flow.", "license": "https://creativecommons.org/licenses/by/4.0/", "isBasedOn": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all" },
+    { "@type": "Dataset", "name": "AI-attributed job changes", "description": "Job losses where AI was named as a cause, with attribution tier, dispute tracking and employer denials recorded separately.", "license": "https://creativecommons.org/licenses/by/4.0/" },
+    { "@type": "Dataset", "name": "Australia versus origin country data availability", "description": "For 16 countries: Australian resident population from that origin, against whether the origin country publishes emigration data covering the Australia corridor. Each row records the URL tested and the test date.", "license": "https://creativecommons.org/licenses/by/4.0/" }
   ]
 }
 </script>
 
 <style>
-  :root { color-scheme: light dark; --fg:#16181d; --bg:#fff; --mut:#5a6270; --line:#e3e6ea; --acc:#0b5cad; }
-  @media (prefers-color-scheme: dark){ :root{ --fg:#e8eaed; --bg:#14161a; --mut:#9aa3af; --line:#2a2e35; --acc:#79b8ff; } }
+  :root { color-scheme: light dark; --fg:#16181d; --bg:#fff; --mut:#5a6270; --line:#e3e6ea; --acc:#0b5cad; --warn:#8a5a00; }
+  @media (prefers-color-scheme: dark){ :root{ --fg:#e8eaed; --bg:#14161a; --mut:#9aa3af; --line:#2a2e35; --acc:#79b8ff; --warn:#e0b050; } }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
-  .wrap{max-width:52rem;margin:0 auto;padding:3rem 1.25rem 5rem}
+  .wrap{max-width:54rem;margin:0 auto;padding:3rem 1.25rem 5rem}
   h1{font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.15;margin:0 0 .5rem;letter-spacing:-.02em}
   .sub{color:var(--mut);font-size:1.05rem;margin:0 0 2.5rem}
-  h2{font-size:1.25rem;margin:2.75rem 0 .75rem;letter-spacing:-.01em}
+  h2{font-size:1.3rem;margin:3rem 0 .5rem;letter-spacing:-.01em}
+  h3{font-size:1.02rem;margin:1.75rem 0 .4rem}
   a{color:var(--acc)}
   code{background:color-mix(in srgb,var(--fg) 8%,transparent);padding:.12em .38em;border-radius:4px;font-size:.9em}
-  table{border-collapse:collapse;width:100%;font-size:.94rem}
-  th,td{text-align:left;padding:.6rem .7rem;border-bottom:1px solid var(--line);vertical-align:top}
-  th{font-weight:600;color:var(--mut);font-size:.82rem;text-transform:uppercase;letter-spacing:.04em}
-  .scroll{overflow-x:auto}
-  .card{border:1px solid var(--line);border-radius:10px;padding:1.1rem 1.25rem;margin:1rem 0}
-  .note{border-left:3px solid var(--acc);padding-left:1rem;color:var(--mut)}
-  pre{background:color-mix(in srgb,var(--fg) 6%,transparent);padding:.9rem 1rem;border-radius:8px;overflow-x:auto;font-size:.88rem}
+  table{border-collapse:collapse;width:100%;font-size:.93rem}
+  th,td{text-align:left;padding:.55rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-weight:600;color:var(--mut);font-size:.8rem;text-transform:uppercase;letter-spacing:.04em}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .card{border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;margin:1rem 0}
+  .note{border-left:3px solid var(--warn);padding-left:1rem;color:var(--mut);margin:1.25rem 0}
+  pre{background:color-mix(in srgb,var(--fg) 6%,transparent);padding:.9rem 1rem;border-radius:8px;overflow-x:auto;font-size:.86rem}
+  .src{color:var(--mut);font-size:.86rem;margin:.35rem 0 0}
   footer{margin-top:4rem;padding-top:1.5rem;border-top:1px solid var(--line);color:var(--mut);font-size:.9rem}
 </style>
 </head>
@@ -77,25 +66,70 @@
 <div class="wrap">
 
 <h1>Australian Public AI Register</h1>
-<p class="sub">Open data on how Australian governments spend on artificial intelligence, who they buy it from, who they hire, and how the migration intake is composed. Every row carries the URL it came from and the date it was retrieved.</p>
+<p class="sub">Open data on Australian migration, government AI, and which governments actually publish their numbers. Every row carries the URL it came from and the date it was retrieved. Nothing here asks you to take our word for it.</p>
 
-<h2>Why this exists</h2>
-<p>Australia publishes a great deal of relevant data and joins almost none of it up. Contract notices sit on AusTender, migration composition sits in ABS SDMX endpoints, provider sanctions sit with ASQA, and parliamentary quotes sit in Hansard XML. Answering a question that spans two of them currently takes a week, so mostly nobody does.</p>
+<h2>Verified findings</h2>
+<p>Each of these is reproducible. Copy the source query, run it yourself, get the same answer.</p>
 
-<h2>Datasets</h2>
+<h3>1. The migration intake is majority students, not skilled workers</h3>
 <div class="scroll">
 <table>
-  <thead><tr><th>Dataset</th><th>Coverage</th><th>Source</th><th>Rows</th></tr></thead>
+  <thead><tr><th>Category, net overseas migration 2023</th><th class="num">Persons</th><th class="num">Share</th></tr></thead>
   <tbody>
-    <tr>
-      <td><a href="https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/nom-by-visa.csv">nom-by-visa.csv</a></td>
-      <td>Net overseas migration by visa group, arrivals and departures, by state, financial years from 2015</td>
-      <td>ABS <code>ABS_NOM_VISA_FY</code></td>
-      <td>2,754</td>
-    </tr>
+    <tr><td>Higher education students</td><td class="num">175,660</td><td class="num">33.9%</td></tr>
+    <tr><td>Student, other</td><td class="num">59,960</td><td class="num">11.6%</td></tr>
+    <tr><td>Vocational education and training</td><td class="num">32,100</td><td class="num">6.2%</td></tr>
+    <tr><td><strong>Students, combined</strong></td><td class="num"><strong>267,720</strong></td><td class="num"><strong>51.7%</strong></td></tr>
+    <tr><td>Temporary work (skilled)</td><td class="num">43,130</td><td class="num">8.3%</td></tr>
+    <tr><td>Permanent visa &mdash; Skill</td><td class="num">29,850</td><td class="num">5.8%</td></tr>
+    <tr><td><strong>Skilled, combined</strong></td><td class="num"><strong>72,980</strong></td><td class="num"><strong>14.1%</strong></td></tr>
+    <tr><td>Total net overseas migration</td><td class="num">518,090</td><td class="num">100%</td></tr>
   </tbody>
 </table>
 </div>
+<p class="src">Source: ABS <code>ABS_NOM_VISA_FY</code> via the ABS Data API. In <code>data/nom-by-visa.csv</code>.</p>
+<div class="note"><strong>Read this with 2019 and 2022 alongside.</strong> 2023 total net migration was 518,090 against 203,590 in 2022, a post-border-reopening catch-up. The composition point holds across all three years; the total does not. Quoting 2023 alone would be cherry-picking.</div>
+
+<h3>2. Origin composition shifted sharply, during closed borders</h3>
+<div class="scroll">
+<table>
+  <thead><tr><th>Country of birth</th><th class="num">2016</th><th class="num">2021</th><th class="num">Change</th><th class="num">%</th></tr></thead>
+  <tbody>
+    <tr><td>India</td><td class="num">489,410</td><td class="num">712,040</td><td class="num">+222,630</td><td class="num">+45%</td></tr>
+    <tr><td>Nepal</td><td class="num">58,980</td><td class="num">130,290</td><td class="num">+71,310</td><td class="num">+121%</td></tr>
+    <tr><td>Pakistan</td><td class="num">69,660</td><td class="num">96,170</td><td class="num">+26,510</td><td class="num">+38%</td></tr>
+    <tr><td>England</td><td class="num">1,002,060</td><td class="num">973,950</td><td class="num">&minus;28,110</td><td class="num">&minus;3%</td></tr>
+    <tr><td>Italy</td><td class="num">195,760</td><td class="num">167,570</td><td class="num">&minus;28,190</td><td class="num">&minus;14%</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="src">Source: ABS <code>ABS_ERP_COB_STATE</code>. In <code>data/population-by-country-of-birth.csv</code>, 257 countries, census years 1996 to 2021.</p>
+<div class="note"><strong>Stock, not flow.</strong> This counts residents at a point in time, so change nets out departures and deaths and is not the same as arrivals. The 2016&ndash;2021 interval also contains roughly eighteen months of closed borders, which suppresses growth against a normal period.</div>
+
+<h3>3. Australia publishes its migration data. Most origin countries do not.</h3>
+<div class="scroll">
+<table>
+  <thead><tr><th>Country</th><th class="num">AU-born residents 2021</th><th>Public API</th><th>Australia-bound emigration data</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Australia</strong></td><td class="num">&mdash;</td><td>ABS SDMX, keyless</td><td>full, by visa group and state</td></tr>
+    <tr><td>India</td><td class="num">712,040</td><td>data.gov.in</td><td>ECR clearances only; Australia is an ECNR destination</td></tr>
+    <tr><td>New Zealand</td><td class="num">584,010</td><td>exists, HTTP 502 on test date</td><td>published</td></tr>
+    <tr><td>Nepal</td><td class="num">130,290</td><td>none found</td><td>top destinations are UAE, Malaysia, Qatar, Saudi, Kuwait</td></tr>
+    <tr><td>Pakistan</td><td class="num">96,170</td><td>HTTP 403</td><td>not verified</td></tr>
+    <tr><td>Bangladesh</td><td class="num">54,870</td><td>none found</td><td>Australia selectable, returns no rows</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="src">Tested 25 August 2026. Full results and the exact URL tested for each are in <code>data/australia-vs-origin-country-data.csv</code>.</p>
+<div class="card">
+<p><strong>The reason is not the obvious one.</strong> These are not refusals to publish, and not data quality failures. Emigration bureaus across South Asia exist to regulate <em>labour</em> migration, which is overwhelmingly Gulf-bound.</p>
+<p>India's own open data API demonstrates it precisely: India publishes emigration data, but only Emigration Check Required clearances, and Australia is an ECNR destination, so no record is created when an Indian departs for Australia. Nepal publishes labour permits by destination and Australia does not appear, because Nepalis arrive here as students and a student visa is not a labour permit.</p>
+<p>The systems were built for a different corridor. Reporting the gap without this explanation invites exactly the wrong inference.</p>
+</div>
+
+<h3>4. AI-attributed job losses are harder to verify than the headlines suggest</h3>
+<p>Australian cases in the current seed that are employer-stated, undisputed, and onshore: <strong>zero</strong>. Commonwealth Bank withdrew a 45-role attribution as an "error"; 176 technology roles are contested by the Finance Sector Union as offshoring; the chat support cuts were at a contractor in Johannesburg. Telstra cut more than 1,000 roles and stated it was "not proposing that any roles be replaced by AI".</p>
+<p class="src">In <code>data/ai-attributed-job-changes.csv</code>, with attribution tier, dispute notes and employer denials recorded separately. Four rows is a seed, not an exhaustive search: this is "no clean case found yet", not "no clean case exists".</p>
 
 <h2>Provenance</h2>
 <p>Three columns appear in every dataset and are enforced by continuous integration:</p>
@@ -109,25 +143,19 @@
   </tbody>
 </table>
 </div>
-<p>The build fails on a blank provenance column, an invalid tier, or a <code>source_url</code> that is a bare homepage. A front page changes daily and cannot evidence a historical figure.</p>
+<p>The build fails on a blank provenance column, an invalid tier, or a <code>source_url</code> that is a bare homepage. A front page changes daily and cannot evidence a historical figure. That gate has already rejected two of our own defective datasets before they reached the default branch.</p>
 
-<h2>Verify any figure yourself</h2>
-<pre>curl -H "Accept: application/vnd.sdmx.data+csv;labels=both" "&lt;source_url from the row&gt;"</pre>
+<h2>Verify anything here</h2>
+<pre>curl -H "Accept: application/vnd.sdmx.data+csv;labels=both" \
+  "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all?startPeriod=2015&amp;format=csv"</pre>
 <p>Every ingest is re-runnable and idempotent. If a figure cannot be reproduced from its <code>source_url</code>, that is a defect: <a href="https://github.com/celestine1111/au-ai-register/issues">open an issue</a>.</p>
 
-<h2>What this measures, and what it does not</h2>
-<div class="card note">
-  <p><strong>Net overseas migration is not visa grants.</strong> NOM uses the ABS 12-in-16-month residency rule. Home Affairs visa grant counts measure something different, and the two legitimately differ. They are not interchangeable.</p>
-  <p><strong>"Temporary visa &mdash; Total" includes visitors</strong>, who are not a migration programme intake in the sense most policy discussion means. Use the component rows for questions about programme settings.</p>
-  <p><strong>Visa group is not occupation.</strong> This dataset supports statements about the composition of the intake by visa class, not about which occupations migrants enter.</p>
-</div>
-
 <h2>Licence and citation</h2>
-<p>CC BY 4.0. Use it, publish it, build on it commercially. Attribution is the only condition. Please cite the DOI of the release you used, so your reference stays valid as the data updates.</p>
+<p>CC BY 4.0. Use it, publish it, build on it commercially. Attribution is the only condition. Cite the DOI of the release you used so your reference stays valid as the data updates.</p>
 
 <h2>Who publishes this</h2>
 <p>Compiled and published by <a href="https://mindiam.com">mindiam</a>, which also runs <a href="https://mindiam.com/ai-policy-watch">AI Policy Watch</a>, a clearly labelled opinion section arguing a position on Australian AI and migration policy.</p>
-<p>We say so because you should know it. <strong>The data here is not selected, filtered or framed to support that position.</strong> The <a href="https://github.com/celestine1111/au-ai-register/blob/main/methodology.md">methodology</a> is published in full, the <a href="https://github.com/celestine1111/au-ai-register/blob/main/SOURCES.md">sources and their known problems</a> are documented, and the git history is a permanent audit trail of every change to every number.</p>
+<p>We say so because you should know it. <strong>The data here is not selected, filtered or framed to support that position.</strong> The <a href="https://github.com/celestine1111/au-ai-register/blob/main/methodology.md">methodology</a> is published in full, the <a href="https://github.com/celestine1111/au-ai-register/blob/main/SOURCES.md">sources and their known problems</a> are documented including the ones that make our own arguments harder, and the git history is a permanent audit trail of every change to every number.</p>
 
 <footer>
   <p><a href="https://github.com/celestine1111/au-ai-register">Repository</a> &middot; <a href="https://github.com/celestine1111/au-ai-register/blob/main/methodology.md">Methodology</a> &middot; <a href="https://github.com/celestine1111/au-ai-register/blob/main/SOURCES.md">Sources</a> &middot; <a href="https://github.com/celestine1111/au-ai-register/blob/main/llms.txt">llms.txt</a></p>

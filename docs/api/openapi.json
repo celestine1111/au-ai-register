@@ -1,0 +1,146 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Australian Public AI Register",
+    "version": "1.0.0",
+    "description": "Open, provenance-gated data on Australian migration, housing affordability, national accounts and public-sector AI. Every row carries the URL it was retrieved from and the timestamp of retrieval.\n\nNo authentication. No API key. No rate limit. Static JSON served from GitHub Pages with permissive CORS.\n\nSTART AT /api/findings.json. It returns the claims this data supports, each with the source query that produces it AND a `limits` array describing what constrains it. Quoting a figure without its limits is the failure mode this register exists to prevent, and it costs a citing publisher more than it costs us.",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "contact": {
+      "name": "mindiam",
+      "url": "https://mindiam.com"
+    }
+  },
+  "servers": [
+    { "url": "https://celestine1111.github.io/au-ai-register", "description": "GitHub Pages" }
+  ],
+  "tags": [
+    { "name": "start-here", "description": "Begin with findings.json" },
+    { "name": "computed", "description": "Derived series, precomputed" },
+    { "name": "raw", "description": "Full datasets, one row per record" }
+  ],
+  "paths": {
+    "/api/findings.json": {
+      "get": {
+        "tags": ["start-here"],
+        "summary": "Claims this register supports, with sources and limits",
+        "description": "The primary endpoint. Each finding carries a plain-language claim, the underlying values, the source query, and a `limits` array. Always relay the limits alongside the figure.",
+        "responses": {
+          "200": {
+            "description": "Findings with attribution requirements and publisher disclosure",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Findings" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/index.json": {
+      "get": {
+        "tags": ["start-here"],
+        "summary": "Endpoint catalogue",
+        "responses": { "200": { "description": "List of available endpoints" } }
+      }
+    },
+    "/api/migration-composition.json": {
+      "get": {
+        "tags": ["computed"],
+        "summary": "Net overseas migration composition by financial year",
+        "description": "Student, skilled and permanent shares of net overseas migration, Australia-wide, computed from ABS ABS_NOM_VISA_FY. Net is arrivals minus departures per visa group.",
+        "responses": { "200": { "description": "Composition series with caveats" } }
+      }
+    },
+    "/api/gdp-vs-per-capita.json": {
+      "get": {
+        "tags": ["computed"],
+        "summary": "GDP against GDP per capita, quarterly",
+        "description": "Where headline GDP rises while GDP per capita falls, aggregate growth came from population rather than productivity. Chain volume (real) measures.",
+        "responses": { "200": { "description": "Quarterly series with a divergence flag per quarter" } }
+      }
+    },
+    "/api/housing-affordability.json": {
+      "get": {
+        "tags": ["raw"],
+        "summary": "Residential property prices against average weekly earnings",
+        "description": "Both indexed to 2012 = 100. NOTE: the property series ends 2021-Q4 and does not describe the current market.",
+        "responses": { "200": { "description": "Indexed price and earnings series" } }
+      }
+    },
+    "/api/nom-by-visa.json": {
+      "get": {
+        "tags": ["raw"],
+        "summary": "Net overseas migration by visa group, state and financial year",
+        "responses": { "200": { "description": "ABS ABS_NOM_VISA_FY rows" } }
+      }
+    },
+    "/api/population-by-country-of-birth.json": {
+      "get": {
+        "tags": ["raw"],
+        "summary": "Australian resident population by country of birth, census years",
+        "description": "257 countries, 1996 to 2021. STOCK, not flow: change nets out departures and deaths and is not arrivals.",
+        "responses": { "200": { "description": "ABS ABS_ERP_COB_STATE rows" } }
+      }
+    },
+    "/api/gdp-per-capita-vs-population.json": {
+      "get": {
+        "tags": ["raw"],
+        "summary": "National accounts: GDP and GDP per capita, quarterly",
+        "responses": { "200": { "description": "ABS ANA_AGG rows" } }
+      }
+    },
+    "/api/ai-attributed-job-changes.json": {
+      "get": {
+        "tags": ["raw"],
+        "summary": "Job losses where AI was named as a cause",
+        "description": "Carries attribution tier, dispute tracking and employer denials. Only rows with attribution=company_stated AND disputed=no may support a headline figure. Rows with attribution=company_denied are employers stating AI was NOT the cause.",
+        "responses": { "200": { "description": "Job change records" } }
+      }
+    },
+    "/api/australia-vs-origin-country-data.json": {
+      "get": {
+        "tags": ["raw"],
+        "summary": "Australian records beside origin-country publication",
+        "description": "For 16 countries: Australian resident population from that origin, against whether the origin country publishes emigration data covering the Australia corridor. 'not verified' means the tested endpoint yielded nothing on the test date, NOT that a country publishes nothing.",
+        "responses": { "200": { "description": "Comparison rows with the URL tested and test date" } }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Findings": {
+        "type": "object",
+        "properties": {
+          "description": { "type": "string" },
+          "generated_at": { "type": "string", "format": "date-time" },
+          "license": { "type": "string" },
+          "attribution_required": { "type": "string" },
+          "publisher_disclosure": { "type": "string" },
+          "findings": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/Finding" }
+          }
+        }
+      },
+      "Finding": {
+        "type": "object",
+        "required": ["id", "claim", "source", "limits"],
+        "properties": {
+          "id": { "type": "string" },
+          "claim": { "type": "string", "description": "Plain-language statement the data supports" },
+          "values": { "type": "object", "description": "The underlying figures" },
+          "source": { "type": "string" },
+          "source_url": { "type": "string", "description": "The exact query producing the figure. Re-runnable." },
+          "limits": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Constraints on the claim. Relay these whenever the figure is quoted."
+          }
+        }
+      }
+    }
+  }
+}

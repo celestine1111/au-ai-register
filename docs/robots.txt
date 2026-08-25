@@ -1,0 +1,48 @@
+# Australian Public AI Register
+#
+# This is an open dataset published for reuse under CC BY 4.0. Crawl it.
+#
+# AI crawlers are explicitly allowed. A register built for machine consumption
+# that machines cannot fetch is worthless, and over-blocking at the edge is a
+# real failure mode: mindiam previously blocked legitimate crawlers at
+# Cloudflare and lost search visibility for weeks before anyone noticed.
+
+User-agent: *
+Allow: /
+
+# Named explicitly so a future tightening of the wildcard rule does not
+# silently remove them.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://celestine1111.github.io/au-ai-register/sitemap.xml

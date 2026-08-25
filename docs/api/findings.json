@@ -1,6 +1,6 @@
 {
   "description": "Claims this register supports, each with the source query that produces it and the limits that constrain it. Intended for machine consumption: quote the claim, carry the limit.",
-  "generated_at": "2026-08-25T13:09:13.526Z",
+  "generated_at": "2026-08-25T13:47:17.777Z",
   "license": "CC-BY-4.0",
   "attribution_required": "mindiam, Australian Public AI Register",
   "publisher_disclosure": "Compiled and published by mindiam, which also runs AI Policy Watch, a clearly labelled opinion section arguing a position on Australian AI and migration policy. The data is not selected, filtered or framed to support that position; the methodology is published in full and the git history is a permanent audit trail.",

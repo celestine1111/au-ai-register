@@ -280,6 +280,7 @@ write("index.json", {
   generated_at: generatedAt,
   authentication: "none",
   rate_limit: "none",
+  openapi: `${BASE}/api/openapi.json`,
   endpoints: [
     { path: "/api/findings.json", description: "Claims this register supports, each with its source query and its limits. Start here." },
     { path: "/api/migration-composition.json", description: "Net overseas migration composition by year, computed." },

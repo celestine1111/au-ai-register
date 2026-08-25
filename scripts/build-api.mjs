@@ -63,6 +63,7 @@ const DATASETS = [
   "ai-attributed-job-changes.csv",
   "australia-vs-origin-country-data.csv",
   "gdp-per-capita-vs-population.csv",
+  "housing-affordability.csv",
 ];
 
 console.log("building static API:");
@@ -239,6 +240,19 @@ write("findings.json", {
       limits: [
         "'not verified' in the dataset means the tested endpoint yielded nothing, NOT that a country publishes nothing. Cite as 'not published at the endpoint tested on 2026-08-25'.",
         "This is a gap in comparability caused by regulatory design. It is not evidence of concealment or of data quality failure by any country.",
+      ],
+    },
+    {
+      id: "house-prices-vs-earnings",
+      claim:
+        "Between 2012 and 2021, Australian capital city house prices rose 94.5% while average weekly earnings rose 26.2%. Prices outran pay by more than three and a half times over the same decade.",
+      values: { property_index_2021Q4: 194.5, earnings_index_2021S2: 126.2, gap_index_points: 68.3, base_year: 2012 },
+      source: "ABS RPPI (Residential Property Price Index, weighted average of eight capitals) and ABS AWE (Average Weekly Earnings), both via the ABS Data API",
+      source_url: "https://data.api.abs.gov.au/rest/data/ABS,RPPI,1.0.0/all?startPeriod=2012&format=csv",
+      limits: [
+        "The RPPI dataflow available through the API ends at 2021-Q4. This does NOT describe the current market and must not be presented as though it does.",
+        "AWE is an average, not a median. Averages are pulled up by high earners, so this UNDERSTATES the gap facing a typical worker.",
+        "Both series are indexed to 2012 = 100. Comparisons must be at the same date; the two series have different end points.",
       ],
     },
     {

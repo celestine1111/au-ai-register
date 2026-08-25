@@ -1,6 +1,6 @@
 {
   "description": "Quarterly percentage change in GDP against GDP per capita, seasonally adjusted, chain volume measures. Where headline GDP rises while GDP per capita falls, growth came from population rather than productivity.",
-  "generated_at": "2026-08-25T13:47:17.777Z",
+  "generated_at": "2026-08-25T14:05:55.405Z",
   "license": "CC-BY-4.0",
   "caveats": [
     "Chain volume (real) measures only. Nominal current-price series are not comparable across years.",

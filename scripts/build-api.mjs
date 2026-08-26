@@ -66,6 +66,9 @@ const DATASETS = [
   "housing-affordability.csv",
   "living-costs-by-household.csv",
   "india-emigration-by-destination.csv",
+  "origin-country-emigration-registers.csv",
+  "independent-migration-estimates.csv",
+  "corroboration.csv",
 ];
 
 console.log("building static API:");
@@ -187,6 +190,30 @@ write("gdp-vs-per-capita.json", {
   last_12_quarters_divergent: divergent,
   data: quarters,
 });
+
+// --- corroboration: how Australia's own figures fare against a third party --
+const corr = readCsv("corroboration.csv");
+const stockChecks = corr.filter((r) => /stock/i.test(r.measure));
+const flowChecks = corr.filter((r) => /flow/i.test(r.measure));
+const stockOk = stockChecks.filter((r) => r.verdict === "corroborated").length;
+const flowOk = flowChecks.filter((r) => r.verdict === "corroborated").length;
+const worstFlow = flowChecks
+  .slice()
+  .sort((a, b) => Math.abs(Number(b.difference_pct)) - Math.abs(Number(a.difference_pct)))[0];
+
+const registers = readCsv("origin-country-emigration-registers.csv");
+const byOrigin = {};
+for (const r of registers) {
+  const o = (byOrigin[r.origin_country] ??= { total: 0, destinations: 0, australia: null });
+  o.total += Number(r.persons) || 0;
+  o.destinations += 1;
+  if (/^austral/i.test(r.destination_country)) o.australia = Number(r.persons);
+}
+
+const nomNegative = (() => {
+  const r = corr.find((x) => /flow/i.test(x.measure) && /2021/.test(x.australian_period));
+  return r ? { net: Number(r.australian_value) } : null;
+})();
 
 write("findings.json", {
   description:
@@ -314,6 +341,60 @@ write("findings.json", {
         "attribution=company_denied rows are employers stating AI was NOT the cause and must never be counted as displacement.",
       ],
     },
+    {
+      id: "australian-migration-figures-independently-checked",
+      claim:
+        `Australia's count of its foreign-born population is independently corroborated (${stockOk} of ${stockChecks.length} census years agree with the UN Population Division within 5%). ` +
+        `Its annual migration FLOW figure is not (${flowOk} of ${flowChecks.length} years agree). The divergence is a method difference, not evidence that either is wrong.`,
+      values: {
+        stock_checks: stockChecks.length,
+        stock_corroborated: stockOk,
+        flow_checks: flowChecks.length,
+        flow_corroborated: flowOk,
+        largest_flow_divergence_year: worstFlow?.australian_period,
+        largest_flow_divergence_pct: worstFlow?.difference_pct,
+      },
+      source: "ABS Census and ABS_NOM_VISA_FY against UN Population Division via World Bank SM.POP.TOTL and SM.POP.NETM",
+      source_url: `${RAW}/corroboration.csv`,
+      limits: [
+        "STOCK corroborates, FLOW does not. Do not report this as a single verdict on Australian migration statistics.",
+        "The flow divergence is explained: ABS measures border crossings directly under the 12/16 month rule, while the UN derives net migration residually from population balance and smooths it across multi-year periods.",
+        "The clearest demonstration is the pandemic. For the year to June 2021 the ABS records net migration of -84,930, Australia losing people with the border closed. The UN series records +116,768 for 2021. A smoothed residual cannot see a border shut.",
+        "Therefore: for an annual Australian migration figure, cite ABS. The UN and World Bank series is appropriate for cross-country comparison, not for Australian year-on-year change, and quoting it against ABS is a misuse of it.",
+      ],
+    },
+    {
+      id: "origin-countries-do-publish-emigration-data",
+      claim:
+        "The claim that migrant-origin countries publish no emigration data is false. India, Bangladesh, Pakistan, Nepal and Sri Lanka all operate emigration registers with destination-country detail, several updated monthly. " +
+        "But Australia is near-absent from all of them, because these are labour-clearance systems whose volume runs to the Gulf.",
+      values: Object.fromEntries(
+        Object.entries(byOrigin).map(([k, v]) => [
+          k,
+          { destinations: v.destinations, total_persons: v.total, to_australia: v.australia },
+        ]),
+      ),
+      source: "Bangladesh Overseas Employment Platform; Sri Lanka Bureau of Foreign Employment Annual Statistical Report 2025",
+      source_url: `${RAW}/origin-country-emigration-registers.csv`,
+      limits: [
+        "These count vetted foreign-employment contracts ONLY. Students, skilled independent migrants and family migration are invisible to them by construction.",
+        "A low Australia figure therefore does NOT measure the size of the migration corridor to Australia, and must never be quoted as if it did. Bangladesh recording 70 clearances does not contradict Australia recording far more Bangladesh-born arrivals; the two count different things.",
+        "Periods differ by source and are given per row. Bangladesh runs from 2023-06-04 because earlier records are still being migrated; Sri Lanka is calendar 2025.",
+        "Pakistan is deliberately excluded from the figures. It publishes an equivalent series (15,172,687 workers 1971 to July 2026) but blocks automated download, and our parse of its PDF failed validation, so no Pakistani figures and no absence claim are published here.",
+      ],
+    },
+    {
+      id: "australia-has-run-negative-net-migration",
+      claim: `Australia recorded NEGATIVE net overseas migration of ${(nomNegative?.net ?? 0).toLocaleString()} in the year to June 2021. A reduced or negative intake is not hypothetical for Australia; it has happened recently and is measured.`,
+      values: { financial_year_ending: 2021, net_overseas_migration: nomNegative?.net ?? null },
+      source: "ABS ABS_NOM_VISA_FY via the ABS Data API",
+      source_url: `${RAW}/corroboration.csv`,
+      limits: [
+        "This was caused by pandemic border closure, not by policy design. It shows a negative year is measurable and survivable, not that it was chosen or that its effects generalise to a planned reduction.",
+        "The same year saw departures of temporary visa holders that would not recur under a policy-driven reduction.",
+        "Cite it as precedent for the measurement, not as a model of the outcome.",
+      ],
+    },
   ],
 });
 
@@ -337,6 +418,9 @@ write("index.json", {
     { path: "/api/population-by-country-of-birth.json", description: `Resident population by country of birth. ${counts["population-by-country-of-birth.csv"]} rows.` },
     { path: "/api/ai-attributed-job-changes.json", description: `AI-attributed job changes with dispute tracking. ${counts["ai-attributed-job-changes.csv"]} rows.` },
     { path: "/api/australia-vs-origin-country-data.json", description: `Australia's record beside origin-country publication. ${counts["australia-vs-origin-country-data.csv"]} rows.` },
+    { path: "/api/corroboration.json", description: `Australian figures checked against the UN Population Division, an independent third party. Stock corroborates, flow diverges. ${counts["corroboration.csv"]} rows.` },
+    { path: "/api/origin-country-emigration-registers.json", description: `Emigration registers published by the origin countries themselves, with destination breakdowns. ${counts["origin-country-emigration-registers.csv"]} rows.` },
+    { path: "/api/independent-migration-estimates.json", description: `UN Population Division net migration and migrant stock for 25 countries, via the World Bank. Independent of Australia and of the origin countries. ${counts["independent-migration-estimates.csv"]} rows.` },
   ],
   usage_note:
     "Every finding carries a 'limits' array. Quoting a figure without its limits is the failure mode this register exists to prevent.",

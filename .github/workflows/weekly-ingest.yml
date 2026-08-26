@@ -36,6 +36,26 @@ jobs:
       - name: ABS net overseas migration by visa group
         run: node scripts/ingest-abs-nom.mjs ${{ inputs.dry_run && '--dry-run' || '' }}
 
+      # Origin-country emigration registers. Bangladesh is a live endpoint and
+      # moves every week; Sri Lanka is an annual report, so re-running it simply
+      # re-validates the transcription against the total the report prints. That
+      # check running weekly is the point: a silent edit to those figures breaks
+      # the build rather than reaching main.
+      - name: Origin-country emigration registers
+        run: node scripts/ingest-origin-emigration-registers.mjs ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      # Independent third-party estimates. This is what lets the register check
+      # Australian figures against a source with no stake in the Australian
+      # argument, rather than only republishing them.
+      - name: UN Population Division estimates via World Bank
+        run: node scripts/ingest-worldbank-migration.mjs ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Rebuild derived datasets
+        if: ${{ !inputs.dry_run }}
+        run: |
+          node scripts/build-australia-vs-origin.mjs
+          node scripts/build-corroboration.mjs
+
       # The gate runs BEFORE the commit, not after. A bad row must never reach
       # the default branch, because every downstream consumer treats what is on
       # main as verified.
@@ -43,16 +63,20 @@ jobs:
         if: ${{ !inputs.dry_run }}
         run: node scripts/check-provenance.mjs
 
+      - name: Rebuild the static API
+        if: ${{ !inputs.dry_run }}
+        run: node scripts/build-api.mjs
+
       - name: Commit changes
         if: ${{ !inputs.dry_run }}
         run: |
           git config user.name  "au-ai-register bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- data/; then
+          if git diff --quiet -- data/ docs/api/; then
             echo "No upstream changes this week. Nothing to commit."
             exit 0
           fi
-          SUMMARY=$(git diff --numstat -- data/ | awk '{a+=$1; r+=$2} END {printf "%d added, %d removed", a, r}')
-          git add data/
+          SUMMARY=$(git diff --numstat -- data/ docs/api/ | awk '{a+=$1; r+=$2} END {printf "%d added, %d removed", a, r}')
+          git add data/ docs/api/
           git commit -m "data: weekly refresh (${SUMMARY})" -m "Automated ingest. Every row re-verified against its source_url by the provenance gate before this commit was created."
           git push

@@ -3,7 +3,7 @@
   "info": {
     "title": "Australian Public AI Register",
     "version": "1.0.0",
-    "description": "Open, provenance-gated data on Australian migration, housing affordability, national accounts and public-sector AI. Every row carries the URL it was retrieved from and the timestamp of retrieval.\n\nNo authentication. No API key. No rate limit. Static JSON served from GitHub Pages with permissive CORS.\n\nSTART AT /api/findings.json. It returns the claims this data supports, each with the source query that produces it AND a `limits` array describing what constrains it. Quoting a figure without its limits is the failure mode this register exists to prevent, and it costs a citing publisher more than it costs us.",
+    "description": "Open, provenance-gated data on Australian migration, housing affordability, national accounts and public-sector AI. Every row carries the URL it was retrieved from and the timestamp of retrieval.\n\nNo authentication. No API key. No rate limit. Static JSON served from GitHub Pages with permissive CORS.\n\nThis register also checks ITSELF: /api/corroboration.json tests Australian figures against an independent third party and publishes the comparisons that fail as well as those that pass.\n\nSTART AT /api/findings.json. It returns the claims this data supports, each with the source query that produces it AND a `limits` array describing what constrains it. Quoting a figure without its limits is the failure mode this register exists to prevent, and it costs a citing publisher more than it costs us.",
     "license": {
       "name": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -14,17 +14,31 @@
     }
   },
   "servers": [
-    { "url": "https://celestine1111.github.io/au-ai-register", "description": "GitHub Pages" }
+    {
+      "url": "https://celestine1111.github.io/au-ai-register",
+      "description": "GitHub Pages"
+    }
   ],
   "tags": [
-    { "name": "start-here", "description": "Begin with findings.json" },
-    { "name": "computed", "description": "Derived series, precomputed" },
-    { "name": "raw", "description": "Full datasets, one row per record" }
+    {
+      "name": "start-here",
+      "description": "Begin with findings.json"
+    },
+    {
+      "name": "computed",
+      "description": "Derived series, precomputed"
+    },
+    {
+      "name": "raw",
+      "description": "Full datasets, one row per record"
+    }
   ],
   "paths": {
     "/api/findings.json": {
       "get": {
-        "tags": ["start-here"],
+        "tags": [
+          "start-here"
+        ],
         "summary": "Claims this register supports, with sources and limits",
         "description": "The primary endpoint. Each finding carries a plain-language claim, the underlying values, the source query, and a `limits` array. Always relay the limits alongside the figure.",
         "responses": {
@@ -32,7 +46,9 @@
             "description": "Findings with attribution requirements and publisher disclosure",
             "content": {
               "application/json": {
-                "schema": { "$ref": "#/components/schemas/Findings" }
+                "schema": {
+                  "$ref": "#/components/schemas/Findings"
+                }
               }
             }
           }
@@ -41,71 +57,167 @@
     },
     "/api/index.json": {
       "get": {
-        "tags": ["start-here"],
+        "tags": [
+          "start-here"
+        ],
         "summary": "Endpoint catalogue",
-        "responses": { "200": { "description": "List of available endpoints" } }
+        "responses": {
+          "200": {
+            "description": "List of available endpoints"
+          }
+        }
       }
     },
     "/api/migration-composition.json": {
       "get": {
-        "tags": ["computed"],
+        "tags": [
+          "computed"
+        ],
         "summary": "Net overseas migration composition by financial year",
         "description": "Student, skilled and permanent shares of net overseas migration, Australia-wide, computed from ABS ABS_NOM_VISA_FY. Net is arrivals minus departures per visa group.",
-        "responses": { "200": { "description": "Composition series with caveats" } }
+        "responses": {
+          "200": {
+            "description": "Composition series with caveats"
+          }
+        }
       }
     },
     "/api/gdp-vs-per-capita.json": {
       "get": {
-        "tags": ["computed"],
+        "tags": [
+          "computed"
+        ],
         "summary": "GDP against GDP per capita, quarterly",
         "description": "Where headline GDP rises while GDP per capita falls, aggregate growth came from population rather than productivity. Chain volume (real) measures.",
-        "responses": { "200": { "description": "Quarterly series with a divergence flag per quarter" } }
+        "responses": {
+          "200": {
+            "description": "Quarterly series with a divergence flag per quarter"
+          }
+        }
       }
     },
     "/api/housing-affordability.json": {
       "get": {
-        "tags": ["raw"],
+        "tags": [
+          "raw"
+        ],
         "summary": "Residential property prices against average weekly earnings",
         "description": "Both indexed to 2012 = 100. NOTE: the property series ends 2021-Q4 and does not describe the current market.",
-        "responses": { "200": { "description": "Indexed price and earnings series" } }
+        "responses": {
+          "200": {
+            "description": "Indexed price and earnings series"
+          }
+        }
       }
     },
     "/api/nom-by-visa.json": {
       "get": {
-        "tags": ["raw"],
+        "tags": [
+          "raw"
+        ],
         "summary": "Net overseas migration by visa group, state and financial year",
-        "responses": { "200": { "description": "ABS ABS_NOM_VISA_FY rows" } }
+        "responses": {
+          "200": {
+            "description": "ABS ABS_NOM_VISA_FY rows"
+          }
+        }
       }
     },
     "/api/population-by-country-of-birth.json": {
       "get": {
-        "tags": ["raw"],
+        "tags": [
+          "raw"
+        ],
         "summary": "Australian resident population by country of birth, census years",
         "description": "257 countries, 1996 to 2021. STOCK, not flow: change nets out departures and deaths and is not arrivals.",
-        "responses": { "200": { "description": "ABS ABS_ERP_COB_STATE rows" } }
+        "responses": {
+          "200": {
+            "description": "ABS ABS_ERP_COB_STATE rows"
+          }
+        }
       }
     },
     "/api/gdp-per-capita-vs-population.json": {
       "get": {
-        "tags": ["raw"],
+        "tags": [
+          "raw"
+        ],
         "summary": "National accounts: GDP and GDP per capita, quarterly",
-        "responses": { "200": { "description": "ABS ANA_AGG rows" } }
+        "responses": {
+          "200": {
+            "description": "ABS ANA_AGG rows"
+          }
+        }
       }
     },
     "/api/ai-attributed-job-changes.json": {
       "get": {
-        "tags": ["raw"],
+        "tags": [
+          "raw"
+        ],
         "summary": "Job losses where AI was named as a cause",
         "description": "Carries attribution tier, dispute tracking and employer denials. Only rows with attribution=company_stated AND disputed=no may support a headline figure. Rows with attribution=company_denied are employers stating AI was NOT the cause.",
-        "responses": { "200": { "description": "Job change records" } }
+        "responses": {
+          "200": {
+            "description": "Job change records"
+          }
+        }
       }
     },
     "/api/australia-vs-origin-country-data.json": {
       "get": {
-        "tags": ["raw"],
+        "tags": [
+          "raw"
+        ],
         "summary": "Australian records beside origin-country publication",
         "description": "For 16 countries: Australian resident population from that origin, against whether the origin country publishes emigration data covering the Australia corridor. 'not verified' means the tested endpoint yielded nothing on the test date, NOT that a country publishes nothing.",
-        "responses": { "200": { "description": "Comparison rows with the URL tested and test date" } }
+        "responses": {
+          "200": {
+            "description": "Comparison rows with the URL tested and test date"
+          }
+        }
+      }
+    },
+    "/api/corroboration.json": {
+      "get": {
+        "tags": [
+          "computed"
+        ],
+        "summary": "Australian figures checked against an independent third party",
+        "description": "Australian migration figures against UN Population Division estimates served by the World Bank, a source independent of both Australia and the origin countries. STOCK corroborates within 2.7 per cent across three census years. FLOW diverges in 8 of 9 years, because ABS measures border crossings directly while the UN derives net migration residually and smooths it across multi-year periods. The decisive case is the year to June 2021: ABS records -84,930, the UN records +116,768. For an annual Australian figure, cite ABS; quoting the UN series against it is a misuse of it.",
+        "responses": {
+          "200": {
+            "description": "One row per comparison, each with both values, the difference, a verdict against a plus or minus 5 per cent band fixed before the test, and the method explanation"
+          }
+        }
+      }
+    },
+    "/api/origin-country-emigration-registers.json": {
+      "get": {
+        "tags": [
+          "raw"
+        ],
+        "summary": "Emigration registers published by the origin countries themselves",
+        "description": "Destination-country breakdowns from origin-country labour bureaus. Bangladesh: 3,427,182 clearances across 158 destinations, Australia 70. Sri Lanka: 311,223 registrations in 2025 across 39 destinations, Australia 743. CRITICAL: these count vetted foreign-employment contracts ONLY. Students, skilled independent migrants and family arrivals are invisible to them by construction, and those routes carry almost everyone who reaches Australia. A low Australia figure is NOT the size of the migration corridor and must never be quoted as such. Always relay the instrument_measures field.",
+        "responses": {
+          "200": {
+            "description": "Rows with origin, agency, destination, persons, period and what the instrument actually measures"
+          }
+        }
+      }
+    },
+    "/api/independent-migration-estimates.json": {
+      "get": {
+        "tags": [
+          "raw"
+        ],
+        "summary": "UN Population Division net migration and migrant stock, via the World Bank",
+        "description": "SM.POP.NETM and SM.POP.TOTL for 25 countries, 1995 to 2024. Independent of Australia and of the origin countries, which is what makes it capable of contradicting an Australian figure. LIMIT: country totals, not corridors. India's net migration is everyone leaving India for everywhere, so it bounds the Australian corridor from above and cannot confirm it.",
+        "responses": {
+          "200": {
+            "description": "Rows by country, year and indicator"
+          }
+        }
       }
     }
   },
@@ -114,29 +226,62 @@
       "Findings": {
         "type": "object",
         "properties": {
-          "description": { "type": "string" },
-          "generated_at": { "type": "string", "format": "date-time" },
-          "license": { "type": "string" },
-          "attribution_required": { "type": "string" },
-          "publisher_disclosure": { "type": "string" },
+          "description": {
+            "type": "string"
+          },
+          "generated_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "license": {
+            "type": "string"
+          },
+          "attribution_required": {
+            "type": "string"
+          },
+          "publisher_disclosure": {
+            "type": "string"
+          },
           "findings": {
             "type": "array",
-            "items": { "$ref": "#/components/schemas/Finding" }
+            "items": {
+              "$ref": "#/components/schemas/Finding"
+            }
           }
         }
       },
       "Finding": {
         "type": "object",
-        "required": ["id", "claim", "source", "limits"],
+        "required": [
+          "id",
+          "claim",
+          "source",
+          "limits"
+        ],
         "properties": {
-          "id": { "type": "string" },
-          "claim": { "type": "string", "description": "Plain-language statement the data supports" },
-          "values": { "type": "object", "description": "The underlying figures" },
-          "source": { "type": "string" },
-          "source_url": { "type": "string", "description": "The exact query producing the figure. Re-runnable." },
+          "id": {
+            "type": "string"
+          },
+          "claim": {
+            "type": "string",
+            "description": "Plain-language statement the data supports"
+          },
+          "values": {
+            "type": "object",
+            "description": "The underlying figures"
+          },
+          "source": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string",
+            "description": "The exact query producing the figure. Re-runnable."
+          },
           "limits": {
             "type": "array",
-            "items": { "type": "string" },
+            "items": {
+              "type": "string"
+            },
             "description": "Constraints on the claim. Relay these whenever the figure is quoted."
           }
         }

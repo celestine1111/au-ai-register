@@ -27,13 +27,19 @@
     { "@type": "DataDownload", "name": "Net overseas migration by visa group (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/nom-by-visa.csv" },
     { "@type": "DataDownload", "name": "Population by country of birth (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/population-by-country-of-birth.csv" },
     { "@type": "DataDownload", "name": "AI-attributed job changes (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/ai-attributed-job-changes.csv" },
-    { "@type": "DataDownload", "name": "Australia versus origin country data availability (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/australia-vs-origin-country-data.csv" }
+    { "@type": "DataDownload", "name": "Australia versus origin country data availability (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/australia-vs-origin-country-data.csv" },
+    { "@type": "DataDownload", "name": "Corroboration: Australian figures against an independent third party (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/corroboration.csv" },
+    { "@type": "DataDownload", "name": "Origin-country emigration registers (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/origin-country-emigration-registers.csv" },
+    { "@type": "DataDownload", "name": "Independent migration estimates, UN Population Division via World Bank (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/independent-migration-estimates.csv" }
   ],
   "hasPart": [
     { "@type": "Dataset", "name": "Net overseas migration by visa group", "description": "Arrivals, departures and net, by visa group, state and territory, financial years from 2015. Derived without alteration from ABS dataflow ABS_NOM_VISA_FY.", "license": "https://creativecommons.org/licenses/by/4.0/", "isBasedOn": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all" },
     { "@type": "Dataset", "name": "Population by country of birth", "description": "Australian resident population by country of birth, 257 countries, census years 1996 to 2021. Stock, not flow.", "license": "https://creativecommons.org/licenses/by/4.0/", "isBasedOn": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all" },
     { "@type": "Dataset", "name": "AI-attributed job changes", "description": "Job losses where AI was named as a cause, with attribution tier, dispute tracking and employer denials recorded separately.", "license": "https://creativecommons.org/licenses/by/4.0/" },
-    { "@type": "Dataset", "name": "Australia versus origin country data availability", "description": "For 16 countries: Australian resident population from that origin, against whether the origin country publishes emigration data covering the Australia corridor. Each row records the URL tested and the test date.", "license": "https://creativecommons.org/licenses/by/4.0/" }
+    { "@type": "Dataset", "name": "Australia versus origin country data availability", "description": "For 16 countries: Australian resident population from that origin, against whether the origin country publishes emigration data covering the Australia corridor. Each row records the URL tested and the test date.", "license": "https://creativecommons.org/licenses/by/4.0/" },
+    { "@type": "Dataset", "name": "Corroboration of Australian migration figures", "description": "Australian migration figures checked against the UN Population Division, a third party independent of both Australia and the origin countries. Stock corroborates within 2.7 per cent across three census years; annual flow diverges in 8 of 9 years because the two use different methods. Both results published.", "license": "https://creativecommons.org/licenses/by/4.0/" },
+    { "@type": "Dataset", "name": "Origin-country emigration registers", "description": "Emigration registers published by origin countries themselves, with destination-country breakdowns: Bangladesh 3.4 million clearances across 158 destinations, Sri Lanka 311,223 registrations across 39. Counts vetted foreign-employment contracts only, not students or skilled independent migration.", "license": "https://creativecommons.org/licenses/by/4.0/" },
+    { "@type": "Dataset", "name": "Independent migration estimates", "description": "UN Population Division net migration and international migrant stock for 25 countries, 1995 to 2024, via the World Bank keyless API. Independent of Australia and of the origin countries.", "license": "https://creativecommons.org/licenses/by/4.0/", "isBasedOn": "https://api.worldbank.org/v2/" }
   ]
 }
 </script>
@@ -106,28 +112,48 @@
 <p class="src">Source: ABS <code>ABS_ERP_COB_STATE</code>. In <code>data/population-by-country-of-birth.csv</code>, 257 countries, census years 1996 to 2021.</p>
 <div class="note"><strong>Stock, not flow.</strong> This counts residents at a point in time, so change nets out departures and deaths and is not the same as arrivals. The 2016&ndash;2021 interval also contains roughly eighteen months of closed borders, which suppresses growth against a normal period.</div>
 
-<h3>3. Australia publishes its migration data. Most origin countries do not.</h3>
+<h3>3. Origin countries do publish emigration data. Australia is simply not in it.</h3>
+<p>The common claim that migrant-origin countries hide their numbers is false. South Asian labour-sending states run some of the most detailed emigration registers anywhere, several updated monthly. Australia is near-absent from every one of them, and the reason is not concealment.</p>
 <div class="scroll">
 <table>
-  <thead><tr><th>Country</th><th class="num">AU-born residents 2021</th><th>Public API</th><th>Australia-bound emigration data</th></tr></thead>
+  <thead><tr><th>Origin register</th><th class="num">Total recorded</th><th class="num">Destinations</th><th class="num">To Australia</th></tr></thead>
   <tbody>
-    <tr><td><strong>Australia</strong></td><td class="num">&mdash;</td><td>ABS SDMX, keyless</td><td>full, by visa group and state</td></tr>
-    <tr><td>India</td><td class="num">712,040</td><td>data.gov.in</td><td>ECR clearances only; Australia is an ECNR destination</td></tr>
-    <tr><td>New Zealand</td><td class="num">584,010</td><td>exists, HTTP 502 on test date</td><td>published</td></tr>
-    <tr><td>Nepal</td><td class="num">130,290</td><td>none found</td><td>top destinations are UAE, Malaysia, Qatar, Saudi, Kuwait</td></tr>
-    <tr><td>Pakistan</td><td class="num">96,170</td><td>HTTP 403</td><td>not verified</td></tr>
-    <tr><td>Bangladesh</td><td class="num">54,870</td><td>none found</td><td>Australia selectable, returns no rows</td></tr>
+    <tr><td>India, MEA emigration clearances</td><td class="num">1,249,005</td><td class="num">14</td><td class="num">not listed</td></tr>
+    <tr><td>Bangladesh, Overseas Employment Platform</td><td class="num">3,427,182</td><td class="num">158</td><td class="num">70</td></tr>
+    <tr><td>Sri Lanka, SLBFE registrations 2025</td><td class="num">311,223</td><td class="num">39</td><td class="num">743</td></tr>
+    <tr><td>Pakistan, BEOE 1971 to July 2026</td><td class="num">15,172,687</td><td class="num">54</td><td class="num">not published here</td></tr>
   </tbody>
 </table>
 </div>
-<p class="src">Tested 25 August 2026. Full results and the exact URL tested for each are in <code>data/australia-vs-origin-country-data.csv</code>.</p>
+<p class="src">Tested 26 August 2026. Rows in <code>data/origin-country-emigration-registers.csv</code>; availability per country in <code>data/australia-vs-origin-country-data.csv</code>.</p>
 <div class="card">
-<p><strong>The reason is not the obvious one.</strong> These are not refusals to publish, and not data quality failures. Emigration bureaus across South Asia exist to regulate <em>labour</em> migration, which is overwhelmingly Gulf-bound.</p>
-<p>India's own open data API demonstrates it precisely: India publishes emigration data, but only Emigration Check Required clearances, and Australia is an ECNR destination, so no record is created when an Indian departs for Australia. Nepal publishes labour permits by destination and Australia does not appear, because Nepalis arrive here as students and a student visa is not a labour permit.</p>
-<p>The systems were built for a different corridor. Reporting the gap without this explanation invites exactly the wrong inference.</p>
+<p><strong>These are labour clearance systems, and that is the whole explanation.</strong> Each one clears a worker to depart under a vetted foreign employment contract, and each exists because the destination is a jurisdiction where the sending state judges its nationals to need protection. India's Emigration Check Required list names 18 countries designated on the basis that they "do not have strict laws regulating the entry and employment of foreign nationals". Australia is not among them, so an Indian moving to Australia generates no record at all.</p>
+<p><strong>So these figures are not corridor sizes, and must never be quoted as if they were.</strong> Bangladesh recording 70 does not contradict Australia recording far more Bangladesh-born arrivals. Students, skilled independent migrants and family arrivals are invisible to a labour bureau by construction, and those routes carry almost everyone who reaches Australia.</p>
 </div>
 
-<h3>4. AI-attributed job losses are harder to verify than the headlines suggest</h3>
+<h3>4. Australia's own figures, checked against someone who can contradict them</h3>
+<p>Every headline migration number in Australian debate is produced by Australia. That is a fair objection, and migration cannot be audited the way trade is, because trade has two records of one shipment and migration has one: almost no state records the departure of its own nationals. The available check is a third party estimating every country on one method, with no stake in the Australian argument. That is the UN Population Division, via the World Bank.</p>
+<div class="scroll">
+<table>
+  <thead><tr><th>Measure</th><th>Australian source</th><th>Independent source</th><th>Result</th></tr></thead>
+  <tbody>
+    <tr><td>Foreign-born residents (stock), 3 census years</td><td>ABS Census</td><td>UN migrant stock</td><td><strong>agrees within 2.7%</strong></td></tr>
+    <tr><td>Net overseas migration (flow), 9 years</td><td>ABS NOM</td><td>UN net migration</td><td><strong>diverges in 8 of 9</strong></td></tr>
+  </tbody>
+</table>
+</div>
+<p class="src">Every comparison, with the agreement band fixed at plus or minus 5 per cent before the test was run, in <code>data/corroboration.csv</code>.</p>
+<div class="card">
+<p><strong>Australia's count of who lives here is independently confirmed.</strong> Its annual flow figure is not, and the decisive case is the pandemic. For the year to June 2021 the ABS records net migration of <strong>-84,930</strong>, Australia losing people with the border closed. The UN series records <strong>+116,768</strong> for 2021.</p>
+<p>That is not a scandal on either side. ABS measures border crossings directly under the 12/16 month rule. The UN derives net migration residually from a population balance and smooths it across multi-year periods, which is right for comparing 200 countries and structurally incapable of seeing a border shut in one year.</p>
+<p><strong>The rule that follows:</strong> for an annual Australian migration figure, cite ABS. For cross-country comparison or resident migrant population, the UN series is legitimate corroboration and Australia passes it. Quoting the UN figure against ABS is a misuse of it.</p>
+</div>
+
+<h3>5. Australia has already run negative net migration</h3>
+<p>In the year to June 2021 Australia recorded net overseas migration of <strong>-84,930</strong>. A reduced or negative intake is not a hypothetical for this country; it is measured, recent, and in the ABS series.</p>
+<p class="src">This was caused by pandemic border closure, not policy design, and included departures of temporary visa holders that would not recur under a planned reduction. It is precedent for the measurement, not a model of the outcome. From <code>ABS_NOM_VISA_FY</code>, in <code>data/corroboration.csv</code>.</p>
+
+<h3>6. AI-attributed job losses are harder to verify than the headlines suggest</h3>
 <p>Australian cases in the current seed that are employer-stated, undisputed, and onshore: <strong>zero</strong>. Commonwealth Bank withdrew a 45-role attribution as an "error"; 176 technology roles are contested by the Finance Sector Union as offshoring; the chat support cuts were at a contractor in Johannesburg. Telstra cut more than 1,000 roles and stated it was "not proposing that any roles be replaced by AI".</p>
 <p class="src">In <code>data/ai-attributed-job-changes.csv</code>, with attribution tier, dispute notes and employer denials recorded separately. Four rows is a seed, not an exhaustive search: this is "no clean case found yet", not "no clean case exists".</p>
 

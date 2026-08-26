@@ -1,7 +1,7 @@
 {
   "dataset": "australia-vs-origin-country-data.csv",
   "rows": 16,
-  "generated_at": "2026-08-25T14:26:09.514Z",
+  "generated_at": "2026-08-26T11:00:10.409Z",
   "license": "CC-BY-4.0",
   "source_csv": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/australia-vs-origin-country-data.csv",
   "data": [
@@ -16,12 +16,13 @@
       "origin_has_public_api": "yes",
       "origin_publishes_emigration": "yes",
       "australia_bound_emigration_published": "not verified",
+      "australia_bound_count": "",
       "origin_note": "BASELINE. ONS runs a working public API. Emigration by destination is published in UK long-term international migration estimates.",
       "origin_url_tested": "https://api.beta.ons.gov.uk/v1/datasets",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "India",
@@ -34,12 +35,13 @@
       "origin_has_public_api": "yes",
       "origin_publishes_emigration": "yes",
       "australia_bound_emigration_published": "no",
+      "australia_bound_count": "",
       "origin_note": "Open data API works and carries emigration datasets, but they cover Emigration Check Required clearances only. Australia is an ECNR destination, so Indians departing for Australia generate no emigration record. Other migration datasets in the API are INTERNAL migration; visa datasets cover foreigners arriving IN India.",
       "origin_url_tested": "https://api.data.gov.in/lists",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "New Zealand",
@@ -52,12 +54,13 @@
       "origin_has_public_api": "exists",
       "origin_publishes_emigration": "yes",
       "australia_bound_emigration_published": "yes",
+      "australia_bound_count": "",
       "origin_note": "BASELINE. Stats NZ publishes migration by destination including Australia. API endpoint returned 502 on the test date.",
       "origin_url_tested": "https://api.stats.govt.nz/opendata/v1/",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "South Africa",
@@ -70,12 +73,13 @@
       "origin_has_public_api": "no",
       "origin_publishes_emigration": "not verified",
       "australia_bound_emigration_published": "not verified",
+      "australia_bound_count": "",
       "origin_note": "Site returns a robots-restricted response to automated requests.",
       "origin_url_tested": "https://www.statssa.gov.za/",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Sri Lanka",
@@ -84,16 +88,17 @@
       "au_change_2016_2021": "15610",
       "au_change_pct": "12.5",
       "au_data_source": "ABS ABS_ERP_COB_STATE via ABS Data API",
-      "origin_agency": "Department of Census and Statistics",
+      "origin_agency": "Sri Lanka Bureau of Foreign Employment",
       "origin_has_public_api": "no",
-      "origin_publishes_emigration": "not verified",
-      "australia_bound_emigration_published": "not verified",
-      "origin_note": "Site reachable, no machine-readable API found at the tested endpoint.",
-      "origin_url_tested": "http://www.statistics.gov.lk/",
-      "tested_date": "2026-08-25",
+      "origin_publishes_emigration": "yes",
+      "australia_bound_emigration_published": "yes",
+      "australia_bound_count": "743",
+      "origin_note": "CORRECTED 2026-08-26. The earlier test hit the Department of Census and Statistics, which is the wrong agency. Foreign employment is SLBFE, which publishes an Annual Statistical Report with a full destination-country table. The 2025 report records 311,223 registrations across 39 destinations, Australia 743, against Kuwait 77,657. Annual PDF, no API. Counts registered migrant workers only.",
+      "origin_url_tested": "https://www.slbfe.lk/statistics/",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Nepal",
@@ -105,13 +110,14 @@
       "origin_agency": "Department of Foreign Employment",
       "origin_has_public_api": "no",
       "origin_publishes_emigration": "yes (not via API)",
-      "australia_bound_emigration_published": "no",
-      "origin_note": "Publishes labour permits by destination. Top destinations are UAE, Malaysia, Qatar, Saudi Arabia and Kuwait; Australia does not appear. Nepalis coming to Australia arrive predominantly as students, and a student visa is not a labour permit. Reports are PDFs in Nepali.",
+      "australia_bound_emigration_published": "not verified",
+      "australia_bound_count": "",
+      "origin_note": "CORRECTED 2026-08-26. Previously recorded as not publishing Australia-bound data. That overstated the evidence: DoFE lists Australia at number 8 of 149 recognised destination countries for foreign employment, so the corridor is inside the system. Whether a count for it is published could not be verified, as the statistics are annual PDFs in Nepali with no machine endpoint. Volume is dominated by UAE, Malaysia, Qatar, Saudi Arabia and Kuwait. Nepalis reaching Australia arrive predominantly as students, and a student visa is not a labour permit.",
       "origin_url_tested": "https://dofe.gov.np/",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Iraq",
@@ -124,12 +130,13 @@
       "origin_has_public_api": "no",
       "origin_publishes_emigration": "not verified",
       "australia_bound_emigration_published": "not verified",
+      "australia_bound_count": "",
       "origin_note": "Tested endpoint returned 404.",
       "origin_url_tested": "https://cosit.gov.iq/en/",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Pakistan",
@@ -142,12 +149,13 @@
       "origin_has_public_api": "no",
       "origin_publishes_emigration": "yes (not via API)",
       "australia_bound_emigration_published": "not verified",
-      "origin_note": "BEOE returns HTTP 403 to automated requests including with a browser user agent, so its country-wise tables could not be tested. Pakistan Bureau of Statistics is reachable with no API found. BEOE regulates overseas EMPLOYMENT, which is Gulf-dominated.",
+      "australia_bound_count": "",
+      "origin_note": "Pakistan DOES publish a detailed destination-country series: 15,172,687 workers registered for employment abroad 1971 to July 2026, updated monthly. It could not be verified here. BEOE returns HTTP 403 to every automated file request, and a rendered parse of its country PDF failed validation, recovering 33 of 54 rows and corrupting labels (rendering Qatar as 'Galier'), so it is not safe to read Australia's presence or absence from it. Recorded as not verified rather than absent: this is a limitation of our extraction, not of Pakistan's publishing.",
       "origin_url_tested": "https://beoe.gov.pk/",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Lebanon",
@@ -160,12 +168,13 @@
       "origin_has_public_api": "no",
       "origin_publishes_emigration": "not verified",
       "australia_bound_emigration_published": "not verified",
+      "australia_bound_count": "",
       "origin_note": "Site reachable, no API found at the tested endpoint.",
       "origin_url_tested": "http://www.cas.gov.lb/",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Iran",
@@ -178,12 +187,13 @@
       "origin_has_public_api": "no",
       "origin_publishes_emigration": "not verified",
       "australia_bound_emigration_published": "not verified",
+      "australia_bound_count": "",
       "origin_note": "Endpoint did not respond to automated request.",
       "origin_url_tested": "https://www.amar.org.ir/english",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Bangladesh",
@@ -192,16 +202,17 @@
       "au_change_2016_2021": "8620",
       "au_change_pct": "18.6",
       "au_data_source": "ABS ABS_ERP_COB_STATE via ABS Data API",
-      "origin_agency": "BMET / Bureau of Manpower Employment and Training",
-      "origin_has_public_api": "no",
-      "origin_publishes_emigration": "yes (not via API)",
-      "australia_bound_emigration_published": "no",
-      "origin_note": "The country-clearance report lists Australia as a selectable country but returns no rows for it. BMET's own site does not mention Australia. The system tracks overseas employment clearances, which are overwhelmingly Gulf-bound.",
+      "origin_agency": "BMET / Overseas Employment Platform",
+      "origin_has_public_api": "yes",
+      "origin_publishes_emigration": "yes",
+      "australia_bound_emigration_published": "yes",
+      "australia_bound_count": "70",
+      "origin_note": "CORRECTED 2026-08-26. An earlier test of this register recorded no API and no Australia rows. Both were wrong, and the error was in the test, not the source. The report is backed by a server-side JSON endpoint that accepts date and country filters, and it returns 3.4 million clearances across 158 destinations since 2023-06-04. Australia is present with 70. The instrument is an overseas EMPLOYMENT clearance, so it counts vetted labour contracts and not the student and skilled-independent routes that carry almost all Bangladeshi arrivals to Australia.",
       "origin_url_tested": "https://www.oep.gov.bd/reports/country-clearance",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Egypt",
@@ -214,12 +225,13 @@
       "origin_has_public_api": "no",
       "origin_publishes_emigration": "not verified",
       "australia_bound_emigration_published": "not verified",
+      "australia_bound_count": "",
       "origin_note": "Site reachable, no API found at the tested endpoint.",
       "origin_url_tested": "https://www.capmas.gov.eg/",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Zimbabwe",
@@ -232,12 +244,13 @@
       "origin_has_public_api": "no",
       "origin_publishes_emigration": "not verified",
       "australia_bound_emigration_published": "not verified",
+      "australia_bound_count": "",
       "origin_note": "Endpoint did not respond to automated request.",
       "origin_url_tested": "https://www.zimstat.co.zw/",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Kenya",
@@ -250,12 +263,13 @@
       "origin_has_public_api": "no",
       "origin_publishes_emigration": "not verified",
       "australia_bound_emigration_published": "not verified",
+      "australia_bound_count": "",
       "origin_note": "Site reachable, no API found at the tested endpoint.",
       "origin_url_tested": "https://www.knbs.or.ke/",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Ethiopia",
@@ -268,12 +282,13 @@
       "origin_has_public_api": "no",
       "origin_publishes_emigration": "not verified",
       "australia_bound_emigration_published": "not verified",
+      "australia_bound_count": "",
       "origin_note": "Endpoint did not respond to automated request.",
       "origin_url_tested": "https://www.statsethiopia.gov.et/",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     },
     {
       "country": "Nigeria",
@@ -286,12 +301,13 @@
       "origin_has_public_api": "no",
       "origin_publishes_emigration": "not verified",
       "australia_bound_emigration_published": "not verified",
+      "australia_bound_count": "",
       "origin_note": "Site reachable, no API found at the tested endpoint.",
       "origin_url_tested": "https://nigerianstat.gov.ng/",
-      "tested_date": "2026-08-25",
+      "tested_date": "2026-08-26",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv",
-      "source_retrieved_at": "2026-08-25T11:58:56.372Z"
+      "source_retrieved_at": "2026-08-26T10:56:21.856Z"
     }
   ]
 }

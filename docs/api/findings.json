@@ -1,6 +1,6 @@
 {
   "description": "Claims this register supports, each with the source query that produces it and the limits that constrain it. Intended for machine consumption: quote the claim, carry the limit.",
-  "generated_at": "2026-08-25T14:26:09.514Z",
+  "generated_at": "2026-08-26T11:00:10.409Z",
   "license": "CC-BY-4.0",
   "attribution_required": "mindiam, Australian Public AI Register",
   "publisher_disclosure": "Compiled and published by mindiam, which also runs AI Policy Watch, a clearly labelled opinion section arguing a position on Australian AI and migration policy. The data is not selected, filtered or framed to support that position; the methodology is published in full and the git history is a permanent audit trail.",
@@ -132,6 +132,65 @@
         "The dataset is a seed, not an exhaustive search. An empty strict result means none found yet, not none exists.",
         "Only attribution=company_stated AND disputed=no rows may carry a headline figure.",
         "attribution=company_denied rows are employers stating AI was NOT the cause and must never be counted as displacement."
+      ]
+    },
+    {
+      "id": "australian-migration-figures-independently-checked",
+      "claim": "Australia's count of its foreign-born population is independently corroborated (3 of 3 census years agree with the UN Population Division within 5%). Its annual migration FLOW figure is not (1 of 9 years agree). The divergence is a method difference, not evidence that either is wrong.",
+      "values": {
+        "stock_checks": 3,
+        "stock_corroborated": 3,
+        "flow_checks": 9,
+        "flow_corroborated": 1,
+        "largest_flow_divergence_year": "Financial year ending 2020",
+        "largest_flow_divergence_pct": "333.5"
+      },
+      "source": "ABS Census and ABS_NOM_VISA_FY against UN Population Division via World Bank SM.POP.TOTL and SM.POP.NETM",
+      "source_url": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/corroboration.csv",
+      "limits": [
+        "STOCK corroborates, FLOW does not. Do not report this as a single verdict on Australian migration statistics.",
+        "The flow divergence is explained: ABS measures border crossings directly under the 12/16 month rule, while the UN derives net migration residually from population balance and smooths it across multi-year periods.",
+        "The clearest demonstration is the pandemic. For the year to June 2021 the ABS records net migration of -84,930, Australia losing people with the border closed. The UN series records +116,768 for 2021. A smoothed residual cannot see a border shut.",
+        "Therefore: for an annual Australian migration figure, cite ABS. The UN and World Bank series is appropriate for cross-country comparison, not for Australian year-on-year change, and quoting it against ABS is a misuse of it."
+      ]
+    },
+    {
+      "id": "origin-countries-do-publish-emigration-data",
+      "claim": "The claim that migrant-origin countries publish no emigration data is false. India, Bangladesh, Pakistan, Nepal and Sri Lanka all operate emigration registers with destination-country detail, several updated monthly. But Australia is near-absent from all of them, because these are labour-clearance systems whose volume runs to the Gulf.",
+      "values": {
+        "Bangladesh": {
+          "destinations": 158,
+          "total_persons": 3427182,
+          "to_australia": 70
+        },
+        "Sri Lanka": {
+          "destinations": 39,
+          "total_persons": 311223,
+          "to_australia": 743
+        }
+      },
+      "source": "Bangladesh Overseas Employment Platform; Sri Lanka Bureau of Foreign Employment Annual Statistical Report 2025",
+      "source_url": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/origin-country-emigration-registers.csv",
+      "limits": [
+        "These count vetted foreign-employment contracts ONLY. Students, skilled independent migrants and family migration are invisible to them by construction.",
+        "A low Australia figure therefore does NOT measure the size of the migration corridor to Australia, and must never be quoted as if it did. Bangladesh recording 70 clearances does not contradict Australia recording far more Bangladesh-born arrivals; the two count different things.",
+        "Periods differ by source and are given per row. Bangladesh runs from 2023-06-04 because earlier records are still being migrated; Sri Lanka is calendar 2025.",
+        "Pakistan is deliberately excluded from the figures. It publishes an equivalent series (15,172,687 workers 1971 to July 2026) but blocks automated download, and our parse of its PDF failed validation, so no Pakistani figures and no absence claim are published here."
+      ]
+    },
+    {
+      "id": "australia-has-run-negative-net-migration",
+      "claim": "Australia recorded NEGATIVE net overseas migration of -84,930 in the year to June 2021. A reduced or negative intake is not hypothetical for Australia; it has happened recently and is measured.",
+      "values": {
+        "financial_year_ending": 2021,
+        "net_overseas_migration": -84930
+      },
+      "source": "ABS ABS_NOM_VISA_FY via the ABS Data API",
+      "source_url": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/corroboration.csv",
+      "limits": [
+        "This was caused by pandemic border closure, not by policy design. It shows a negative year is measurable and survivable, not that it was chosen or that its effects generalise to a planned reduction.",
+        "The same year saw departures of temporary visa holders that would not recur under a policy-driven reduction.",
+        "Cite it as precedent for the measurement, not as a model of the outcome."
       ]
     }
   ]

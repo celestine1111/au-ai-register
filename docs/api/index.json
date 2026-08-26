@@ -5,7 +5,7 @@
   "attribution_required": "mindiam, Australian Public AI Register",
   "repository": "https://github.com/celestine1111/au-ai-register",
   "documentation": "https://celestine1111.github.io/au-ai-register",
-  "generated_at": "2026-08-25T14:26:09.514Z",
+  "generated_at": "2026-08-26T11:00:10.409Z",
   "authentication": "none",
   "rate_limit": "none",
   "openapi": "https://celestine1111.github.io/au-ai-register/api/openapi.json",
@@ -33,6 +33,18 @@
     {
       "path": "/api/australia-vs-origin-country-data.json",
       "description": "Australia's record beside origin-country publication. 16 rows."
+    },
+    {
+      "path": "/api/corroboration.json",
+      "description": "Australian figures checked against the UN Population Division, an independent third party. Stock corroborates, flow diverges. 12 rows."
+    },
+    {
+      "path": "/api/origin-country-emigration-registers.json",
+      "description": "Emigration registers published by the origin countries themselves, with destination breakdowns. 197 rows."
+    },
+    {
+      "path": "/api/independent-migration-estimates.json",
+      "description": "UN Population Division net migration and migrant stock for 25 countries, via the World Bank. Independent of Australia and of the origin countries. 925 rows."
     }
   ],
   "usage_note": "Every finding carries a 'limits' array. Quoting a figure without its limits is the failure mode this register exists to prevent."

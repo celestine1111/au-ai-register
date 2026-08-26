@@ -79,3 +79,50 @@ under-reports.
 
 **State planning portals have no consistent API.** Data centre approvals will
 need per-jurisdiction handling and will be the most fragile feed in the register.
+
+## Independent third-party estimates
+
+**World Bank Open Data**, `https://api.worldbank.org/v2/`. Keyless, no rate
+limit, republishes UN Population Division estimates. Two indicators are used:
+`SM.POP.TOTL` (international migrant stock) and `SM.POP.NETM` (net migration),
+for 25 countries, 1995 to 2024. Refreshed weekly.
+
+This is the only source in the register that is independent of both Australia and
+the origin countries, which is what makes it capable of contradicting an
+Australian figure. It does, on flow. See "Verification" in methodology.md.
+
+**UN DESA Data Portal**, `https://population.un.org/dataportalapi/api/v1/`. The
+metadata endpoints (`/indicators`, `/locations`) are open, but the `/data`
+endpoints now return **401** and require a registered token. The World Bank route
+above serves the same underlying estimates without authentication and is used
+instead.
+
+**OECD SDMX**, `https://sdmx.oecd.org/public/rest/`. Returns **403** behind a
+Cloudflare challenge to automated requests. Its International Migration Database
+would be a second independent compiler; not currently reachable.
+
+## Origin-country emigration registers
+
+**Bangladesh, Overseas Employment Platform** (BMET),
+`https://www.oep.gov.bd/reports/country-clearance`. Server-side JSON endpoint
+behind a public report page, accepting `approval_date_from`, `approval_date_to`
+and `country_id[]`. Data from 2023-06-04; the site states earlier records are
+still being migrated. Refreshed weekly.
+
+**Sri Lanka Bureau of Foreign Employment**, `https://www.slbfe.lk/statistics/`.
+Annual Statistical Report as PDF, no API. Destination table on page 5. Validated
+against the total printed in the report.
+
+**India, Ministry of External Affairs** via `data.gov.in`. Emigration clearances
+only. See the existing India section above.
+
+**Pakistan, Bureau of Emigration and Overseas Employment**,
+`https://beoe.gov.pk/reports-and-statistics`. Publishes monthly country,
+category, district, occupation and province tables as PDF and XLS. **All file
+requests return 403 to automated clients**, including with full browser headers.
+Rendered parsing of the country PDF failed validation. No Pakistani figures are
+published in this register. This is our limitation, not theirs.
+
+**Nepal, Department of Foreign Employment**, `https://dofe.gov.np/`. Publishes a
+list of 149 recognised destination countries, Australia at number 8. Statistics
+are annual PDFs in Nepali with no machine endpoint; not yet extracted.

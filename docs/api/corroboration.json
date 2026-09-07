@@ -1,7 +1,7 @@
 {
   "dataset": "corroboration.csv",
   "rows": 12,
-  "generated_at": "2026-08-26T11:00:10.409Z",
+  "generated_at": "2026-09-07T22:42:15.142Z",
   "license": "CC-BY-4.0",
   "source_csv": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/corroboration.csv",
   "data": [
@@ -19,7 +19,7 @@
       "explanation": "Two independent counts of the same resident population, 2011 census against the UN's 2010 reference year. A direct enumeration checked against an external estimate built on a different method.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.TOTL?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     },
     {
       "measure": "Foreign-born residents of Australia (stock)",
@@ -35,7 +35,7 @@
       "explanation": "Two independent counts of the same resident population, 2016 census against the UN's 2015 reference year. A direct enumeration checked against an external estimate built on a different method.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.TOTL?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     },
     {
       "measure": "Foreign-born residents of Australia (stock)",
@@ -51,7 +51,7 @@
       "explanation": "Two independent counts of the same resident population, 2021 census against the UN's 2020 reference year. A direct enumeration checked against an external estimate built on a different method.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ERP_COB_STATE,1.0.0/all?format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.TOTL?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     },
     {
       "measure": "Net overseas migration to Australia (flow)",
@@ -67,7 +67,7 @@
       "explanation": "Not like for like on period (Australian financial year against UN calendar year) and, more importantly, not like for like on method. ABS measures border crossings directly under the 12/16 month rule. The UN derives net migration residually from population balance and smooths it across multi-year periods, which suppresses short spikes. Where these diverge, ABS is the better instrument for an annual Australian figure.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all?startPeriod=2015&format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.NETM?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     },
     {
       "measure": "Net overseas migration to Australia (flow)",
@@ -83,7 +83,7 @@
       "explanation": "Not like for like on period (Australian financial year against UN calendar year) and, more importantly, not like for like on method. ABS measures border crossings directly under the 12/16 month rule. The UN derives net migration residually from population balance and smooths it across multi-year periods, which suppresses short spikes. Where these diverge, ABS is the better instrument for an annual Australian figure.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all?startPeriod=2015&format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.NETM?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     },
     {
       "measure": "Net overseas migration to Australia (flow)",
@@ -99,7 +99,7 @@
       "explanation": "Not like for like on period (Australian financial year against UN calendar year) and, more importantly, not like for like on method. ABS measures border crossings directly under the 12/16 month rule. The UN derives net migration residually from population balance and smooths it across multi-year periods, which suppresses short spikes. Where these diverge, ABS is the better instrument for an annual Australian figure.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all?startPeriod=2015&format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.NETM?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     },
     {
       "measure": "Net overseas migration to Australia (flow)",
@@ -115,7 +115,7 @@
       "explanation": "Not like for like on period (Australian financial year against UN calendar year) and, more importantly, not like for like on method. ABS measures border crossings directly under the 12/16 month rule. The UN derives net migration residually from population balance and smooths it across multi-year periods, which suppresses short spikes. Where these diverge, ABS is the better instrument for an annual Australian figure.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all?startPeriod=2015&format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.NETM?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     },
     {
       "measure": "Net overseas migration to Australia (flow)",
@@ -131,7 +131,7 @@
       "explanation": "Not like for like on period (Australian financial year against UN calendar year) and, more importantly, not like for like on method. ABS measures border crossings directly under the 12/16 month rule. The UN derives net migration residually from population balance and smooths it across multi-year periods, which suppresses short spikes. Where these diverge, ABS is the better instrument for an annual Australian figure.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all?startPeriod=2015&format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.NETM?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     },
     {
       "measure": "Net overseas migration to Australia (flow)",
@@ -147,7 +147,7 @@
       "explanation": "Not like for like on period (Australian financial year against UN calendar year) and, more importantly, not like for like on method. ABS measures border crossings directly under the 12/16 month rule. The UN derives net migration residually from population balance and smooths it across multi-year periods, which suppresses short spikes. Where these diverge, ABS is the better instrument for an annual Australian figure.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all?startPeriod=2015&format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.NETM?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     },
     {
       "measure": "Net overseas migration to Australia (flow)",
@@ -163,7 +163,7 @@
       "explanation": "Not like for like on period (Australian financial year against UN calendar year) and, more importantly, not like for like on method. ABS measures border crossings directly under the 12/16 month rule. The UN derives net migration residually from population balance and smooths it across multi-year periods, which suppresses short spikes. Where these diverge, ABS is the better instrument for an annual Australian figure.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all?startPeriod=2015&format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.NETM?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     },
     {
       "measure": "Net overseas migration to Australia (flow)",
@@ -179,7 +179,7 @@
       "explanation": "Not like for like on period (Australian financial year against UN calendar year) and, more importantly, not like for like on method. ABS measures border crossings directly under the 12/16 month rule. The UN derives net migration residually from population balance and smooths it across multi-year periods, which suppresses short spikes. Where these diverge, ABS is the better instrument for an annual Australian figure.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all?startPeriod=2015&format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.NETM?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     },
     {
       "measure": "Net overseas migration to Australia (flow)",
@@ -195,7 +195,7 @@
       "explanation": "Not like for like on period (Australian financial year against UN calendar year) and, more importantly, not like for like on method. ABS measures border crossings directly under the 12/16 month rule. The UN derives net migration residually from population balance and smooths it across multi-year periods, which suppresses short spikes. Where these diverge, ABS is the better instrument for an annual Australian figure.",
       "source_tier": "primary",
       "source_url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_NOM_VISA_FY,1.0.0/all?startPeriod=2015&format=csv | https://api.worldbank.org/v2/country/AUS/indicator/SM.POP.NETM?format=json&date=1995:2024&per_page=200",
-      "source_retrieved_at": "2026-08-26T10:59:17.011Z"
+      "source_retrieved_at": "2026-09-07T22:42:15.015Z"
     }
   ]
 }

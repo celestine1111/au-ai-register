@@ -1,7 +1,7 @@
 {
   "dataset": "housing-affordability.csv",
   "rows": 149,
-  "generated_at": "2026-09-21T23:10:03.066Z",
+  "generated_at": "2026-09-29T00:18:43.462Z",
   "license": "CC-BY-4.0",
   "source_csv": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/housing-affordability.csv",
   "data": [

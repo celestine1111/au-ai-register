@@ -1,7 +1,7 @@
 {
   "dataset": "origin-country-emigration-registers.csv",
   "rows": 197,
-  "generated_at": "2026-09-29T00:18:43.462Z",
+  "generated_at": "2026-10-06T01:14:17.895Z",
   "license": "CC-BY-4.0",
   "source_csv": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/origin-country-emigration-registers.csv",
   "data": [
@@ -9,141 +9,141 @@
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Saudi Arabia",
-      "persons": "1997747",
+      "persons": "2001201",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Malaysia",
-      "persons": "311895",
+      "persons": "311917",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Qatar",
-      "persons": "276340",
+      "persons": "277485",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Singapore",
-      "persons": "216689",
+      "persons": "218520",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "United Arab Emirates (UAE)",
-      "persons": "143938",
+      "persons": "144724",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Kuwait",
-      "persons": "122338",
+      "persons": "123509",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Maldives",
-      "persons": "72935",
+      "persons": "74247",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Oman",
-      "persons": "60305",
+      "persons": "60339",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Jordan",
-      "persons": "46235",
+      "persons": "46644",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Italy",
-      "persons": "31760",
+      "persons": "32036",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -151,55 +151,55 @@
       "destination_country": "Kyrgyzstan",
       "persons": "21041",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Cambodia",
-      "persons": "17409",
+      "persons": "17416",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Portugal",
-      "persons": "13056",
+      "persons": "13312",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Lebanon",
-      "persons": "12579",
+      "persons": "12690",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -207,13 +207,13 @@
       "destination_country": "United Kingdom (UK)",
       "persons": "12241",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -221,125 +221,125 @@
       "destination_country": "Iraq",
       "persons": "11408",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Brunei",
-      "persons": "10007",
+      "persons": "10117",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Russian Federation",
-      "persons": "8978",
+      "persons": "9112",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Romania",
-      "persons": "8616",
+      "persons": "8670",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Cyprus",
-      "persons": "8144",
+      "persons": "8200",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Serbia",
-      "persons": "8113",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "South Korea",
-      "persons": "8068",
+      "persons": "8176",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Serbia",
+      "persons": "8125",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Laos",
-      "persons": "7898",
+      "persons": "8047",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Fiji",
-      "persons": "6838",
+      "persons": "7042",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -347,13 +347,13 @@
       "destination_country": "Croatia",
       "persons": "5991",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -361,27 +361,27 @@
       "destination_country": "Congo",
       "persons": "5610",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Japan",
-      "persons": "4925",
+      "persons": "5010",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -389,125 +389,125 @@
       "destination_country": "Belarus",
       "persons": "3558",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Seychelles",
-      "persons": "3403",
+      "persons": "3440",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Mauritius",
-      "persons": "2857",
+      "persons": "2951",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Vietnam",
-      "persons": "2780",
+      "persons": "2890",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Brazil",
-      "persons": "2765",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "North Macedonia (formerly Macedonia)",
-      "persons": "2750",
+      "persons": "2861",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Malta",
-      "persons": "2289",
+      "destination_country": "Brazil",
+      "persons": "2767",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Mongolia",
-      "persons": "2247",
+      "persons": "2335",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Malta",
+      "persons": "2303",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Greece",
-      "persons": "2142",
+      "persons": "2205",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -515,41 +515,41 @@
       "destination_country": "Libya",
       "persons": "1278",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Bulgaria",
-      "persons": "1239",
+      "persons": "1248",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Poland",
-      "persons": "1188",
+      "persons": "1191",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -557,13 +557,13 @@
       "destination_country": "Kosovo",
       "persons": "1058",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -571,27 +571,27 @@
       "destination_country": "Canada",
       "persons": "1057",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Mozambique",
-      "persons": "1050",
+      "persons": "1056",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -599,55 +599,55 @@
       "destination_country": "Moldova",
       "persons": "956",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Hong Kong",
-      "persons": "922",
+      "persons": "940",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Hungary",
-      "persons": "900",
+      "persons": "919",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Slovenia",
-      "persons": "882",
+      "persons": "901",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -655,13 +655,13 @@
       "destination_country": "Palau",
       "persons": "847",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -669,13 +669,13 @@
       "destination_country": "Uzbekistan",
       "persons": "825",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -683,55 +683,55 @@
       "destination_country": "Papua New Guinea",
       "persons": "814",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Bosnia and Herzegovina",
-      "persons": "683",
+      "persons": "739",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "New Zealand",
-      "persons": "637",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Somalia",
-      "persons": "635",
+      "persons": "643",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "New Zealand",
+      "persons": "640",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -739,27 +739,27 @@
       "destination_country": "South Africa",
       "persons": "611",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Algeria",
-      "persons": "590",
+      "persons": "607",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -767,27 +767,41 @@
       "destination_country": "Azerbaijan",
       "persons": "577",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "China",
-      "persons": "484",
+      "persons": "488",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Sri Lanka",
+      "persons": "468",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -795,27 +809,13 @@
       "destination_country": "Albania",
       "persons": "468",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Sri Lanka",
-      "persons": "457",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -823,27 +823,27 @@
       "destination_country": "Lithuania",
       "persons": "423",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Sudan",
-      "persons": "408",
+      "persons": "411",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -851,27 +851,27 @@
       "destination_country": "Ivory Coast",
       "persons": "282",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Finland",
-      "persons": "225",
+      "persons": "226",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -879,13 +879,13 @@
       "destination_country": "South Sudan",
       "persons": "167",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -893,13 +893,13 @@
       "destination_country": "Yemen",
       "persons": "146",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -907,27 +907,41 @@
       "destination_country": "Samoa",
       "persons": "131",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Ireland",
-      "persons": "126",
+      "persons": "128",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Czechia",
+      "persons": "123",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -935,27 +949,13 @@
       "destination_country": "Nigeria",
       "persons": "120",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Czechia",
-      "persons": "120",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -963,13 +963,13 @@
       "destination_country": "Solomon Islands",
       "persons": "115",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -977,13 +977,13 @@
       "destination_country": "Iran",
       "persons": "109",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -991,13 +991,13 @@
       "destination_country": "Djibouti",
       "persons": "106",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1005,13 +1005,13 @@
       "destination_country": "Cote d'Ivoire",
       "persons": "105",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1019,13 +1019,13 @@
       "destination_country": "Ethiopia",
       "persons": "100",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1033,27 +1033,27 @@
       "destination_country": "Bolivia",
       "persons": "92",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Montenegro",
-      "persons": "90",
+      "persons": "92",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1061,41 +1061,41 @@
       "destination_country": "Germany",
       "persons": "87",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Equatorial Guinea",
-      "persons": "83",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
       "destination_country": "Guyana",
-      "persons": "83",
+      "persons": "85",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Equatorial Guinea",
+      "persons": "84",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1103,13 +1103,13 @@
       "destination_country": "Kazakhstan",
       "persons": "82",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1117,13 +1117,13 @@
       "destination_country": "Denmark",
       "persons": "80",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1131,13 +1131,13 @@
       "destination_country": "Belize",
       "persons": "76",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1145,13 +1145,13 @@
       "destination_country": "Latvia",
       "persons": "75",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1159,41 +1159,13 @@
       "destination_country": "Australia",
       "persons": "70",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Paraguay",
-      "persons": "57",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Morocco",
-      "persons": "57",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1201,13 +1173,41 @@
       "destination_country": "Macau",
       "persons": "57",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Paraguay",
+      "persons": "57",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Morocco",
+      "persons": "57",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1215,13 +1215,13 @@
       "destination_country": "Botswana",
       "persons": "55",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1229,13 +1229,13 @@
       "destination_country": "Andorra",
       "persons": "54",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1243,13 +1243,13 @@
       "destination_country": "Turkey",
       "persons": "50",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1257,13 +1257,13 @@
       "destination_country": "Angola",
       "persons": "44",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1271,13 +1271,13 @@
       "destination_country": "Armenia",
       "persons": "39",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1285,13 +1285,13 @@
       "destination_country": "Indonesia",
       "persons": "37",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1299,13 +1299,13 @@
       "destination_country": "Madagascar",
       "persons": "36",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1313,27 +1313,13 @@
       "destination_country": "Tanzania",
       "persons": "34",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Netherlands",
-      "persons": "32",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1341,13 +1327,27 @@
       "destination_country": "Micronesia",
       "persons": "32",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Netherlands",
+      "persons": "32",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1355,13 +1355,13 @@
       "destination_country": "Austria",
       "persons": "32",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1369,13 +1369,13 @@
       "destination_country": "Cook Islands",
       "persons": "31",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1383,13 +1383,13 @@
       "destination_country": "Liechtenstein",
       "persons": "27",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1397,13 +1397,13 @@
       "destination_country": "Cameroon",
       "persons": "27",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1411,13 +1411,13 @@
       "destination_country": "Eswatini (formerly Swaziland)",
       "persons": "24",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1425,13 +1425,13 @@
       "destination_country": "United States of America (USA)",
       "persons": "24",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1439,27 +1439,13 @@
       "destination_country": "Georgia",
       "persons": "23",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Belgium",
-      "persons": "22",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1467,13 +1453,13 @@
       "destination_country": "Ghana",
       "persons": "22",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1481,27 +1467,27 @@
       "destination_country": "Tajikistan",
       "persons": "22",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "France",
-      "persons": "20",
+      "destination_country": "Belgium",
+      "persons": "22",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1509,13 +1495,27 @@
       "destination_country": "Nauru",
       "persons": "20",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "France",
+      "persons": "20",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1523,13 +1523,13 @@
       "destination_country": "Estonia",
       "persons": "19",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1537,27 +1537,13 @@
       "destination_country": "Sweden",
       "persons": "18",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Liberia",
-      "persons": "18",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1565,41 +1551,27 @@
       "destination_country": "Malawi",
       "persons": "18",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Pakistan",
-      "persons": "17",
+      "destination_country": "Liberia",
+      "persons": "18",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Togo",
-      "persons": "17",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1607,27 +1579,41 @@
       "destination_country": "Bhutan",
       "persons": "17",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
       "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Slovakia",
-      "persons": "15",
+      "destination_country": "Togo",
+      "persons": "17",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Pakistan",
+      "persons": "17",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1635,13 +1621,27 @@
       "destination_country": "Zambia",
       "persons": "15",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Slovakia",
+      "persons": "15",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1649,27 +1649,13 @@
       "destination_country": "Gabon",
       "persons": "15",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Uganda",
-      "persons": "14",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1677,13 +1663,27 @@
       "destination_country": "Bahrain",
       "persons": "14",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Uganda",
+      "persons": "14",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1691,41 +1691,13 @@
       "destination_country": "Guinea",
       "persons": "13",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Sierra Leone",
-      "persons": "11",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Mexico",
-      "persons": "11",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1733,13 +1705,13 @@
       "destination_country": "Egypt",
       "persons": "11",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1747,13 +1719,41 @@
       "destination_country": "Bahamas",
       "persons": "11",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Mexico",
+      "persons": "11",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Sierra Leone",
+      "persons": "11",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1761,13 +1761,13 @@
       "destination_country": "Vanuatu",
       "persons": "10",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1775,13 +1775,13 @@
       "destination_country": "Tonga",
       "persons": "10",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1789,13 +1789,27 @@
       "destination_country": "Thailand",
       "persons": "9",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
+    },
+    {
+      "origin_country": "Bangladesh",
+      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
+      "destination_country": "Norway",
+      "persons": "8",
+      "period_start": "2023-06-04",
+      "period_end": "2026-10-06",
+      "instrument": "Overseas employment clearance",
+      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
+      "covers_australia": "yes",
+      "source_tier": "primary",
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1803,13 +1817,13 @@
       "destination_country": "Cuba",
       "persons": "8",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1817,13 +1831,13 @@
       "destination_country": "Afghanistan",
       "persons": "7",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1831,27 +1845,13 @@
       "destination_country": "Ecuador",
       "persons": "7",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
-    },
-    {
-      "origin_country": "Bangladesh",
-      "origin_agency": "Bureau of Manpower, Employment and Training (Overseas Employment Platform)",
-      "destination_country": "Norway",
-      "persons": "7",
-      "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
-      "instrument": "Overseas employment clearance",
-      "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
-      "covers_australia": "yes",
-      "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1859,13 +1859,13 @@
       "destination_country": "Ukraine",
       "persons": "7",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1873,13 +1873,13 @@
       "destination_country": "Spain",
       "persons": "6",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1887,13 +1887,13 @@
       "destination_country": "Senegal",
       "persons": "6",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1901,13 +1901,13 @@
       "destination_country": "Kenya",
       "persons": "6",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1915,13 +1915,13 @@
       "destination_country": "Bermuda",
       "persons": "5",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1929,13 +1929,13 @@
       "destination_country": "Taiwan",
       "persons": "4",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1943,13 +1943,13 @@
       "destination_country": "Gambia",
       "persons": "4",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1957,13 +1957,13 @@
       "destination_country": "Iceland",
       "persons": "4",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1971,13 +1971,13 @@
       "destination_country": "India",
       "persons": "3",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1985,13 +1985,13 @@
       "destination_country": "Chile",
       "persons": "3",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -1999,13 +1999,13 @@
       "destination_country": "Burundi",
       "persons": "3",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2013,13 +2013,13 @@
       "destination_country": "Turks & Caicos Islands",
       "persons": "3",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2027,13 +2027,13 @@
       "destination_country": "Chad",
       "persons": "2",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2041,13 +2041,13 @@
       "destination_country": "Syria",
       "persons": "2",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2055,13 +2055,13 @@
       "destination_country": "Trinidad and Tobago",
       "persons": "2",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2069,13 +2069,13 @@
       "destination_country": "Guatemala",
       "persons": "2",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2083,13 +2083,13 @@
       "destination_country": "Mauritania",
       "persons": "2",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2097,13 +2097,13 @@
       "destination_country": "Zimbabwe",
       "persons": "2",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2111,13 +2111,13 @@
       "destination_country": "Luxembourg",
       "persons": "1",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2125,13 +2125,13 @@
       "destination_country": "Jamaica",
       "persons": "1",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2139,13 +2139,13 @@
       "destination_country": "Tunisia",
       "persons": "1",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2153,13 +2153,13 @@
       "destination_country": "Panama",
       "persons": "1",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2167,13 +2167,13 @@
       "destination_country": "Dominican Republic",
       "persons": "1",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2181,13 +2181,13 @@
       "destination_country": "Barbados",
       "persons": "1",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2195,13 +2195,13 @@
       "destination_country": "Peru",
       "persons": "1",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Bangladesh",
@@ -2209,13 +2209,13 @@
       "destination_country": "Benin",
       "persons": "1",
       "period_start": "2023-06-04",
-      "period_end": "2026-09-29",
+      "period_end": "2026-10-06",
       "instrument": "Overseas employment clearance",
       "instrument_measures": "Workers cleared to depart under a vetted foreign employment contract. Excludes students, skilled independent migrants, family migration and anyone travelling without a cleared labour contract.",
       "covers_australia": "yes",
       "source_tier": "primary",
-      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-09-29&all_skills=0",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_url": "https://www.oep.gov.bd/reports/country-clearance?draw=1&start=0&length=300&approval_date_from=2023-06-04&approval_date_to=2026-10-06&all_skills=0",
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2229,7 +2229,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2243,7 +2243,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2257,7 +2257,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2271,7 +2271,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2285,7 +2285,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2299,7 +2299,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2313,7 +2313,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2327,7 +2327,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2341,7 +2341,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2355,7 +2355,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2369,7 +2369,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2383,7 +2383,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2397,7 +2397,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2411,7 +2411,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2425,7 +2425,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2439,7 +2439,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2453,7 +2453,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2467,7 +2467,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2481,7 +2481,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2495,7 +2495,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2509,7 +2509,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2523,7 +2523,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2537,7 +2537,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2551,7 +2551,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2565,7 +2565,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2579,7 +2579,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2593,7 +2593,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2607,7 +2607,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2621,7 +2621,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2635,7 +2635,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2649,7 +2649,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2663,7 +2663,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2677,7 +2677,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2691,7 +2691,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2705,7 +2705,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2719,7 +2719,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2733,7 +2733,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2747,7 +2747,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     },
     {
       "origin_country": "Sri Lanka",
@@ -2761,7 +2761,7 @@
       "covers_australia": "yes",
       "source_tier": "primary",
       "source_url": "https://www.slbfe.lk/wp-content/uploads/2026/07/ASR-2025-WEB-SITE-final.pdf",
-      "source_retrieved_at": "2026-09-29T00:17:04.551Z"
+      "source_retrieved_at": "2026-10-06T01:14:00.840Z"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "dataset": "gdp-per-capita-vs-population.csv",
   "rows": 1148,
-  "generated_at": "2026-10-26T23:42:36.523Z",
+  "generated_at": "2026-11-03T02:10:52.978Z",
   "license": "CC-BY-4.0",
   "source_csv": "https://raw.githubusercontent.com/celestine1111/au-ai-register/main/data/gdp-per-capita-vs-population.csv",
   "data": [
